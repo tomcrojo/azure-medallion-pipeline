@@ -1,0 +1,1001 @@
+customer_id,customer_name,email,country,signup_date,loyalty_tier
+CUST-00001,Albano Llopis Hierro,emiliocalatayud@example.net,España,2024-02-12,bronze
+CUST-00002,Antonia del Antón,buenoisaias@example.org,España,2023-11-27,silver
+CUST-00003,María Cristina Amor,liliarivas@example.org,España,2025-12-22,gold
+CUST-00004,Marita Lobo Agudo,joserocamora@example.com,España,2024-10-25,bronze
+CUST-00005,Casemiro Garrido-Navarro,bruricardo@example.org,España,2023-08-18,gold
+CUST-00006,Soraya Núñez Lamas,segoviabrunilda@example.org,España,2024-09-21,bronze
+CUST-00007,Ani Marcos Pardo,juliebanos@example.org,España,2024-05-08,gold
+CUST-00008,Rolando del Bernal,roxanacabrero@example.com,España,2023-06-11,bronze
+CUST-00009,Javi Patiño-Cánovas,pedro34@example.net,España,2025-09-22,gold
+CUST-00010,Marco Donoso Hierro,oscarpino@example.com,España,2025-12-26,silver
+CUST-00011,Constanza del Barba,pacaanton@example.com,España,2023-09-20,silver
+CUST-00012,Edelmira Batalla Galván,iban76@example.net,España,2026-01-30,bronze
+CUST-00013,Bienvenida Landa Chaparro,marcelajodar@example.net,España,2025-12-16,gold
+CUST-00014,Inés Pujol-Paredes,emilianovergara@example.com,España,2025-05-16,platinum
+CUST-00015,René Arévalo Canals,eulaliacuesta@example.net,España,2026-01-09,silver
+CUST-00016,María Bartolomé Plaza,hsole@example.com,España,2024-02-16,silver
+CUST-00017,Teodora de Carbó,maria-jose51@example.com,España,2025-03-28,platinum
+CUST-00018,Camila Santiago Acero,angelita28@example.org,España,2025-02-03,bronze
+CUST-00019,Sosimo Miguel Vera Flor,raulcuellar@example.net,España,2025-11-25,bronze
+CUST-00020,Ágata Abascal,amaya01@example.com,España,2024-05-22,bronze
+CUST-00021,Dimas Ambrosio Hernando Bermúdez,torreolalla@example.org,España,2024-11-23,bronze
+CUST-00022,Raquel de Castellanos,qdalmau@example.net,España,2026-02-08,bronze
+CUST-00023,Ileana Cloe Font Mesa,cperea@example.net,España,2024-03-27,bronze
+CUST-00024,Azeneth Huguet Gomila,neiraalfonso@example.net,España,2023-05-01,bronze
+CUST-00025,Crescencia de Aguilar,barraljenaro@example.org,España,2023-03-06,gold
+CUST-00026,Tito Murillo Belda,leontorralba@example.org,España,2023-05-26,silver
+CUST-00027,Benigna del Herrero,mramirez@example.org,España,2024-07-24,silver
+CUST-00028,Narciso Rosa Pablo,dreig@example.net,España,2024-03-14,silver
+CUST-00029,Nicodemo Cabello Barrera,znicolau@example.org,España,2026-03-15,silver
+CUST-00030,Clemente de Sanabria,telmoespanol@example.com,España,2024-05-12,silver
+CUST-00031,Diana Benet Salazar,ayusoflorinda@example.net,España,2025-04-13,bronze
+CUST-00032,Arturo Guzmán Delgado,etorralba@example.org,España,2023-07-18,silver
+CUST-00033,Yaiza Barral Cózar,yabril@example.com,España,2024-12-26,bronze
+CUST-00034,Eloísa Rocha Torrecilla,goyomartin@example.org,España,2025-08-14,gold
+CUST-00035,Luis Miguel Barrera Mir,ayllondaniela@example.com,España,2023-04-21,silver
+CUST-00036,Ágata Criado,verdejocecilio@example.org,España,2023-07-21,bronze
+CUST-00037,Manuel Bayo Gutierrez,kcarretero@example.org,España,2024-11-25,gold
+CUST-00038,Martirio Ariño-Bilbao,uyanez@example.com,España,2023-08-12,bronze
+CUST-00039,Nicanor Miralles,juan-manuelpriego@example.org,España,2024-01-25,silver
+CUST-00040,Jenaro Fausto Belmonte Agustí,ecabo@example.net,España,2023-10-15,bronze
+CUST-00041,José Luis Lara,pacobayona@example.org,España,2024-07-24,bronze
+CUST-00042,Elodia Cruz Ríos,emma80@example.net,España,2023-06-04,bronze
+CUST-00043,Emperatriz de Cañizares,david18@example.org,España,2026-02-01,bronze
+CUST-00044,Epifanio Galvez-Novoa,jacintalaguna@example.net,España,2026-01-12,gold
+CUST-00045,Dionisia Azcona Bru,clloret@example.org,España,2023-07-11,gold
+CUST-00046,Regina Castrillo Juárez,manuelasala@example.net,España,2024-04-29,bronze
+CUST-00047,Mar Agustí Caparrós,companycaridad@example.org,España,2025-09-21,bronze
+CUST-00048,Marisela Colomer Ropero,arielmendez@example.com,España,2025-04-01,gold
+CUST-00049,Vinicio Pallarès Gallo,griseldacalderon@example.com,España,2023-12-04,bronze
+CUST-00050,Verónica del Cortes,rosauracamara@example.org,España,2025-03-10,bronze
+CUST-00051,Aitana Escobar Márquez,rhurtado@example.org,España,2025-07-20,bronze
+CUST-00052,Graciano Arias Sosa,heracliosegui@example.com,España,2026-02-12,silver
+CUST-00053,Segismundo Rómulo Goñi Gisbert,ferrandosabas@example.com,España,2025-09-23,bronze
+CUST-00054,Toni Baños-Lorenzo,felipa86@example.net,España,2024-08-30,bronze
+CUST-00055,Eusebia de Carlos,gaspar94@example.org,España,2023-04-30,silver
+CUST-00056,Marc Rovira Ojeda,tristan98@example.org,España,2026-01-15,bronze
+CUST-00057,Ximena Falcón Iñiguez,rubioabel@example.net,España,2024-10-04,bronze
+CUST-00058,Noelia de Pascual,qbecerra@example.com,España,2025-09-03,silver
+CUST-00059,Estefanía Narcisa Casanovas Mas,griselda65@example.com,España,2025-12-23,bronze
+CUST-00060,Leonel Bernardo Feliu Rivero,ndavila@example.net,España,2025-11-06,bronze
+CUST-00061,Hermenegildo Leocadio Abad Mateu,humberto69@example.net,España,2024-01-16,bronze
+CUST-00062,Josefa Sala Salamanca,ariadnasaenz@example.net,España,2023-05-20,silver
+CUST-00063,Narciso Blazquez Luz,ciro34@example.org,España,2024-04-26,bronze
+CUST-00064,Candelario Amat,hierroaitana@example.net,España,2026-03-12,bronze
+CUST-00065,Javier Ribas Ferreras,zurrutia@example.org,España,2023-03-23,silver
+CUST-00066,Nacio Adán Campillo,lgilabert@example.net,España,2025-05-08,silver
+CUST-00067,Jordana Ayllón,yessicacarrion@example.com,España,2026-03-03,silver
+CUST-00068,Salvador Sobrino Molins,bvargas@example.net,España,2024-06-18,bronze
+CUST-00069,Viviana Cuenca Taboada,wjove@example.org,España,2024-10-05,bronze
+CUST-00070,Rodolfo Vázquez-Tormo,leonardosabater@example.org,España,2025-03-21,bronze
+CUST-00071,Desiderio Elías Narváez Montenegro,chaconeutropio@example.org,España,2024-09-06,bronze
+CUST-00072,Nélida Corominas Gargallo,riberasaturnino@example.com,España,2023-05-29,bronze
+CUST-00073,Josefa del Barrios,pepitarivera@example.com,España,2026-02-27,platinum
+CUST-00074,Obdulia Aller-Pintor,waguado@example.com,España,2023-05-31,silver
+CUST-00075,Tamara Rius Giménez,rgimenez@example.com,España,2025-11-02,bronze
+CUST-00076,Albina Porcel Navarrete,ddalmau@example.org,España,2024-12-15,gold
+CUST-00077,Luna Alba Prada Amores,romeroelpidio@example.com,España,2024-05-15,bronze
+CUST-00078,Amador Juan Pinilla,hector75@example.com,España,2023-11-20,bronze
+CUST-00079,Eligia Robles Iniesta,sosaalejo@example.net,España,2026-01-17,silver
+CUST-00080,Amaya del Gomez,arjonamarisela@example.org,España,2025-12-19,bronze
+CUST-00081,Cornelio de Corominas,edmundosaenz@example.net,España,2026-02-09,bronze
+CUST-00082,Lope Gibert Sola,maria-fernanda52@example.net,España,2023-08-01,gold
+CUST-00083,Piedad Paca Carbó Céspedes,candido90@example.com,España,2023-10-03,bronze
+CUST-00084,Nicolasa Perez-Puente,carlosherrero@example.org,España,2023-08-08,silver
+CUST-00085,Teodoro Octavio Carrillo Armengol,berta65@example.org,España,2023-11-15,bronze
+CUST-00086,Miriam Nogueira,riverapacifica@example.com,España,2024-03-07,silver
+CUST-00087,Inocencio Paredes Segura,trinidadecheverria@example.net,España,2024-02-21,silver
+CUST-00088,Modesta León,bsola@example.net,España,2024-06-24,silver
+CUST-00089,Edelmira Mora-Higueras,lorenzosocorro@example.com,España,2024-05-29,gold
+CUST-00090,Remigio del Pinilla,ambrosio75@example.org,España,2023-04-15,bronze
+CUST-00091,Cloe Pacheco Jordán,lino94@example.net,España,2025-05-17,gold
+CUST-00092,Juan Feijoo Boada,lolaramos@example.com,España,2023-04-01,bronze
+CUST-00093,Purificación de Tamayo,ysamper@example.org,España,2023-09-25,silver
+CUST-00094,Eugenio Giralt Quiroga,marianopeinado@example.com,España,2024-06-20,bronze
+CUST-00095,Luisa del Roig,pastor74@example.com,España,2025-06-23,silver
+CUST-00096,David Carrillo-Fernández,dimas82@example.org,España,2025-05-25,silver
+CUST-00097,Rafael Tomé,lourdes98@example.net,España,2023-08-18,bronze
+CUST-00098,Aureliano Sigfrido Ferrera Marti,poncioescobar@example.com,España,2023-11-02,silver
+CUST-00099,Paulino Castañeda Lledó,ballestercarolina@example.com,España,2025-01-26,silver
+CUST-00100,Melchor Tudela Calderon,luisadora@example.com,España,2023-10-31,bronze
+CUST-00101,Evita Espinosa Aznar,rosalva71@example.org,España,2023-03-27,bronze
+CUST-00102,Leandra Benavent Baeza,eustaquiomateu@example.org,España,2023-03-23,gold
+CUST-00103,Benigno del Gonzalez,csanjuan@example.com,España,2024-03-06,silver
+CUST-00104,Inés Mayoral-Barrena,galianoeufemia@example.org,España,2023-07-30,bronze
+CUST-00105,Natalio Bertrán-Crespo,fulgenciobenavides@example.org,España,2026-02-20,gold
+CUST-00106,Hernando Sanjuan Soriano,anacleto34@example.net,España,2025-04-12,platinum
+CUST-00107,Pascual Tito Santiago Belda,ambarlamas@example.net,España,2023-11-13,gold
+CUST-00108,Nadia Figuerola-Rodríguez,gomilaflora@example.org,España,2024-04-29,gold
+CUST-00109,Severiano Cisneros-Bellido,dazamonica@example.com,España,2023-12-29,gold
+CUST-00110,Pilar Sara Malo Saavedra,solisjennifer@example.com,España,2023-02-20,bronze
+CUST-00111,Elena Vall Uribe,mbernat@example.org,España,2024-11-11,silver
+CUST-00112,Paulina Mora Ibáñez,bravojenaro@example.net,España,2025-04-23,gold
+CUST-00113,Maristela Almansa-Leon,diezadoracion@example.net,España,2024-05-23,bronze
+CUST-00114,África Lobo Escudero,ftellez@example.com,España,2023-08-10,bronze
+CUST-00115,Guadalupe Mínguez Montesinos,cuevasnarciso@example.com,España,2023-03-21,gold
+CUST-00116,Elvira Pérez Arco,uborja@example.com,España,2024-03-31,bronze
+CUST-00117,Azahar Quintero Vilar,sevillaseveriano@example.org,España,2025-07-31,bronze
+CUST-00118,Juan Antonio Pardo,wsalamanca@example.org,España,2024-04-11,bronze
+CUST-00119,Eliseo Castro,urbano71@example.org,España,2024-01-31,bronze
+CUST-00120,Rosalía Dafne Cuadrado Mercader,rayaciro@example.org,España,2024-07-24,gold
+CUST-00121,Jerónimo Carpio Correa,gmanzanares@example.net,España,2024-07-25,bronze
+CUST-00122,Hipólito Tolosa-Sureda,yagococa@example.com,España,2025-11-09,bronze
+CUST-00123,Édgar Verdejo,rosariobanos@example.com,España,2026-01-03,bronze
+CUST-00124,Evita Vera Lastra,lunalucila@example.com,España,2023-02-26,bronze
+CUST-00125,Marina Tovar-Comas,wtome@example.com,España,2024-06-18,bronze
+CUST-00126,Rafaela del Sarabia,ruth33@example.net,España,2024-06-27,bronze
+CUST-00127,Cruz Reig Arranz,marcela76@example.com,España,2025-06-08,bronze
+CUST-00128,Jose Miguel Arco Cases,ruth17@example.org,España,2024-10-04,bronze
+CUST-00129,Zaida Saura,cobossebastian@example.net,España,2025-11-13,bronze
+CUST-00130,Anselmo Soria Landa,estrella61@example.com,España,2024-01-25,bronze
+CUST-00131,Fortunata del Torrents,bayonajoel@example.net,España,2025-06-12,bronze
+CUST-00132,Danilo Raúl Botella Roura,cabreravicente@example.org,España,2026-01-07,silver
+CUST-00133,Vito Alberto Arteaga Morata,marcosplinio@example.com,España,2024-02-08,bronze
+CUST-00134,Blanca Hidalgo Requena,franciscodiez@example.org,España,2023-05-24,gold
+CUST-00135,Tomasa Francisca Hernando Valenciano,jesusserra@example.net,España,2024-11-07,silver
+CUST-00136,Jeremías Jara-Agustí,rmaestre@example.net,España,2023-09-13,silver
+CUST-00137,Angelino Sala Ojeda,feliciana64@example.com,España,2024-09-07,silver
+CUST-00138,Conrado Gregorio Tomas Campillo,ricopalomar@example.net,España,2025-04-16,bronze
+CUST-00139,Pancho Eusebio Almeida Priego,adan90@example.net,España,2024-08-28,silver
+CUST-00140,Serafina Macías Grau,isidoro39@example.com,España,2024-01-28,bronze
+CUST-00141,Mauricio Caballero Ariza,modesta70@example.net,España,2025-02-15,silver
+CUST-00142,Patricia Catalá Bosch,nacho62@example.org,España,2023-12-23,silver
+CUST-00143,Rubén Paz Valls,paulina24@example.com,España,2024-09-08,bronze
+CUST-00144,Raúl Trinidad Nevado Cardona,jbenet@example.org,España,2023-01-01,bronze
+CUST-00145,Soraya Paz Bosch,qalcala@example.net,España,2024-03-06,bronze
+CUST-00146,Javi Pedrosa Juárez,gpera@example.net,España,2024-10-21,bronze
+CUST-00147,Jonatan de Mosquera,florabarroso@example.net,España,2025-06-24,silver
+CUST-00148,Yéssica Matas Real,chavesartemio@example.org,España,2025-11-12,bronze
+CUST-00149,Jose Manuel Bautista Cabanillas Guitart,romansantiago@example.com,España,2023-12-14,silver
+CUST-00150,Hortensia de Ribera,tovarencarnacion@example.com,España,2024-08-04,silver
+CUST-00151,Alcides Pellicer-Gaya,psales@example.com,España,2024-11-17,bronze
+CUST-00152,Olegario Pedrero Palmer,puigleoncio@example.org,España,2024-04-26,silver
+CUST-00153,Teobaldo Sanz Bravo,felisaalmazan@example.org,España,2024-04-05,gold
+CUST-00154,Daniela Casas Fuertes,galandelia@example.org,España,2023-10-29,bronze
+CUST-00155,Fidel de Acedo,rosa-maria22@example.net,España,2024-05-16,platinum
+CUST-00156,Sabas Díaz-Canet,catalaalbino@example.com,España,2023-05-30,bronze
+CUST-00157,Macario del Alcázar,juan-manuelbadia@example.org,España,2024-02-03,silver
+CUST-00158,Lucila Carballo Bartolomé,xsanabria@example.com,España,2025-02-25,bronze
+CUST-00159,Martina Canales,ovara@example.net,España,2024-05-14,bronze
+CUST-00160,Prudencio Vázquez Mata,danguita@example.com,España,2023-01-12,gold
+CUST-00161,Inmaculada Campoy Trujillo,fbeltran@example.com,España,2023-08-07,silver
+CUST-00162,Brunilda Ana Sofía Cases Llopis,rico98@example.com,España,2024-03-24,bronze
+CUST-00163,Ligia Ros Cabezas,garridotito@example.com,España,2025-11-26,bronze
+CUST-00164,Hilario del Santana,uricart@example.org,España,2026-02-15,bronze
+CUST-00165,Inmaculada Milla Jara,ezequiel71@example.org,España,2023-09-06,bronze
+CUST-00166,Arturo Rosales Bárcena,octavia28@example.org,España,2025-08-09,silver
+CUST-00167,Mar Murcia-Carvajal,qotero@example.com,España,2026-02-18,silver
+CUST-00168,Ernesto Miguel Ortiz,veraiban@example.org,España,2025-06-25,silver
+CUST-00169,Consuelo Campoy Ordóñez,dario49@example.org,España,2025-10-30,bronze
+CUST-00170,Sonia Amo Lastra,escribanoleandro@example.net,España,2026-01-27,bronze
+CUST-00171,Édgar Fortunato Orozco Aguado,ruthclemente@example.net,España,2023-11-22,silver
+CUST-00172,Anastasia Cifuentes Anglada,garridorenato@example.com,España,2025-08-30,bronze
+CUST-00173,Evita Criado Pelayo,lorena59@example.net,España,2024-05-21,gold
+CUST-00174,Vasco Badía Cortés,mariselaayala@example.net,España,2024-07-21,silver
+CUST-00175,Elías Salazar Rodrigo,asalamanca@example.com,España,2025-12-03,bronze
+CUST-00176,René Vila,ochoatito@example.org,España,2024-05-04,bronze
+CUST-00177,Norberto Norberto Torrecilla Águila,artemio36@example.net,España,2023-06-08,silver
+CUST-00178,Abraham Fuente Mata,maria-fernandacervantes@example.com,España,2024-04-25,bronze
+CUST-00179,Fernando Benito Aguilera Valencia,iechevarria@example.com,España,2024-10-16,gold
+CUST-00180,Ofelia de Vall,calixto60@example.com,España,2023-06-15,bronze
+CUST-00181,Jeremías Bermejo Millán,tquiroga@example.net,España,2024-04-18,bronze
+CUST-00182,Ema Cardona Quirós,morcillofrancisco-javier@example.net,España,2023-11-09,silver
+CUST-00183,Selena Paredes Borja,pcamacho@example.com,España,2023-05-12,bronze
+CUST-00184,Gracia Zamora-Bermúdez,vmenendez@example.com,España,2024-11-08,silver
+CUST-00185,Flavio de Benito,vianaguillermo@example.com,España,2025-05-01,bronze
+CUST-00186,Pascuala Coloma Guzman,colljose-maria@example.org,España,2025-05-10,bronze
+CUST-00187,Marcial Coronado Benet,maria-teresauribe@example.com,España,2023-02-10,gold
+CUST-00188,Pía Sanchez-Moraleda,eutropio71@example.com,España,2025-02-18,bronze
+CUST-00189,Melania Mateo Llobet,ortizanunciacion@example.org,España,2024-12-21,bronze
+CUST-00190,Jerónimo Jaime Arellano Barberá,paz41@example.net,España,2025-03-09,gold
+CUST-00191,Marino Vendrell Planas,carmengol@example.net,España,2025-05-08,silver
+CUST-00192,Felipe Tamarit,bernabesanjuan@example.org,España,2026-01-23,silver
+CUST-00193,Oriana Blasco Vargas,anibalhuguet@example.net,España,2024-03-27,bronze
+CUST-00194,Isabel Zamora Yáñez,prudencioperalta@example.com,España,2024-07-12,bronze
+CUST-00195,Guadalupe Neira Badía,blas51@example.net,España,2023-03-01,bronze
+CUST-00196,Elodia Iniesta Conesa,ceferino92@example.com,España,2025-04-08,silver
+CUST-00197,Nacio Paco Pou Castelló,menendezcelia@example.com,España,2025-08-15,gold
+CUST-00198,Ruth Castell Zurita,rodaapolonia@example.com,España,2025-12-29,bronze
+CUST-00199,Gerardo Mendizábal Escribano,nestortorre@example.org,España,2025-03-17,silver
+CUST-00200,Bruno de Berenguer,rafaela18@example.net,España,2023-02-25,bronze
+CUST-00201,Alma Navarro,edelmirapenas@example.org,España,2025-05-27,bronze
+CUST-00202,Cipriano Daza Río,reigpanfilo@example.net,España,2025-08-03,bronze
+CUST-00203,Iván del Sanchez,bibianaharo@example.com,España,2024-06-16,bronze
+CUST-00204,Yaiza Ferrera Pedro,xserrano@example.com,España,2024-03-09,bronze
+CUST-00205,Lidia Álamo Riquelme,olgaflores@example.net,España,2024-11-22,silver
+CUST-00206,Tristán Ibáñez Azorin,jpera@example.org,España,2025-02-15,bronze
+CUST-00207,Susanita Casanovas,celso24@example.com,España,2025-05-13,bronze
+CUST-00208,Brunilda Ruiz,gironaolga@example.com,España,2023-06-17,bronze
+CUST-00209,Íngrid Amor Ribera,prietoani@example.com,España,2026-01-09,bronze
+CUST-00210,Guadalupe de Perera,amaromontalban@example.org,España,2024-12-17,bronze
+CUST-00211,Rosa María Coll Cervantes,madridyessica@example.com,España,2023-05-21,silver
+CUST-00212,Reynaldo Somoza Sanabria,bernadalejo@example.com,España,2023-03-24,silver
+CUST-00213,Silvestre Conde,xcantero@example.com,España,2024-05-21,bronze
+CUST-00214,Eutropio de Asenjo,simonsebastian@example.org,España,2023-02-11,silver
+CUST-00215,Silvio Valero Alegre,linacobo@example.com,España,2024-05-03,bronze
+CUST-00216,Abigaíl Osorio Hernandez,qexposito@example.net,España,2023-08-23,silver
+CUST-00217,Juan Francisco Palomo Bauzà,porterosamanta@example.com,España,2024-03-22,bronze
+CUST-00218,Maximino Pombo Perea,mariana05@example.org,España,2024-06-08,silver
+CUST-00219,Dalila Calleja Márquez,arsenioortuno@example.net,España,2023-12-10,silver
+CUST-00220,Ruth Díez Sobrino,zesparza@example.org,España,2023-08-23,silver
+CUST-00221,Pepito Seco Arco,heriberto03@example.org,España,2023-12-02,platinum
+CUST-00222,Úrsula Menéndez Villalba,qsaenz@example.org,España,2023-08-10,silver
+CUST-00223,Eric Palau,marmolleandro@example.org,España,2024-09-30,silver
+CUST-00224,Isa Páez Sabater,lnicolau@example.com,España,2025-02-07,bronze
+CUST-00225,Flor Vives Lasa,rodriguezcayetano@example.com,España,2024-02-11,bronze
+CUST-00226,Sandra Carolina Marin Montesinos,bernalnacio@example.net,España,2024-05-12,bronze
+CUST-00227,Ezequiel Jacinto Rojas Diaz,cortega@example.org,España,2024-09-09,gold
+CUST-00228,María Luisa Royo Llobet,benavideshilda@example.net,España,2023-09-05,silver
+CUST-00229,Filomena Vilalta Cuesta,claveroreina@example.net,España,2026-03-05,silver
+CUST-00230,Alexandra Cases Bautista,melaniapazos@example.com,España,2024-12-12,silver
+CUST-00231,Margarita Antúnez Corral,xpelaez@example.com,España,2025-01-28,bronze
+CUST-00232,Luciano Cervantes Ávila,romulo54@example.org,España,2024-11-29,bronze
+CUST-00233,Albert Estrada Valera,qcarranza@example.com,España,2025-05-10,gold
+CUST-00234,Clotilde Machado Tudela,donatocerda@example.org,España,2023-08-05,bronze
+CUST-00235,Carmela Salgado Bonilla,guadalupe51@example.net,España,2025-01-11,silver
+CUST-00236,Ema del Criado,nadiapardo@example.net,España,2025-07-30,silver
+CUST-00237,Benjamín de Chamorro,morenauribe@example.org,España,2025-06-10,bronze
+CUST-00238,Manola Peinado Solsona,emmaboix@example.org,España,2025-12-04,platinum
+CUST-00239,Heliodoro Plinio Tejero Zaragoza,krecio@example.org,España,2024-07-07,silver
+CUST-00240,Federico Benavent Sandoval,wvillar@example.org,España,2026-01-07,silver
+CUST-00241,Micaela de Castelló,dvalverde@example.org,España,2025-08-10,bronze
+CUST-00242,Calista Mateu,felixmora@example.net,España,2024-07-03,bronze
+CUST-00243,Fulgencio del Bermúdez,haroldo84@example.org,España,2024-05-17,gold
+CUST-00244,Marino Juanito Bueno Valverde,doracorrea@example.org,España,2023-06-27,bronze
+CUST-00245,Pacífica Xiomara Nebot Armengol,bertranartemio@example.net,España,2025-07-12,bronze
+CUST-00246,Dulce Galvez-Riera,valencianotamara@example.net,España,2025-08-09,silver
+CUST-00247,Ema del Tomas,noaramis@example.com,España,2025-02-15,bronze
+CUST-00248,Angelina Barreda Cruz,ericart@example.com,España,2025-10-09,gold
+CUST-00249,Francisco Cobo,rosalva55@example.com,España,2024-01-08,bronze
+CUST-00250,Ricardo Pellicer Villa,montanajose-antonio@example.com,España,2024-12-27,silver
+CUST-00251,Eliseo Sancho Huguet,cletoayuso@example.com,España,2024-11-28,bronze
+CUST-00252,Teresa Ripoll Hurtado,odalysmoran@example.net,España,2024-07-19,silver
+CUST-00253,Celestina Cuervo Valentín,tvalenzuela@example.com,España,2025-11-24,gold
+CUST-00254,Artemio Pozuelo Vega,nhernando@example.net,España,2023-06-25,bronze
+CUST-00255,Amanda Ayuso Lucena,ssosa@example.net,España,2025-04-12,bronze
+CUST-00256,Teo Campos Rosa,sofialamas@example.net,España,2024-05-07,silver
+CUST-00257,Ramona Quintana Paz,perezaurelio@example.net,España,2025-10-02,bronze
+CUST-00258,Charo del Malo,pomaresanna@example.com,España,2023-02-05,bronze
+CUST-00259,Elisa de Castells,pradaraul@example.com,España,2024-03-29,bronze
+CUST-00260,Flavia de Flor,cvall@example.org,España,2024-05-13,bronze
+CUST-00261,Bruno Mínguez Sáez,mcompany@example.net,España,2025-01-25,bronze
+CUST-00262,Fernando Montalbán Cámara,lmartinez@example.com,España,2025-12-23,bronze
+CUST-00263,Saturnina Vergara,emari@example.org,España,2026-02-01,bronze
+CUST-00264,Eusebia Canals Riera,natividad09@example.com,España,2025-07-18,bronze
+CUST-00265,Nacio Goñi-Aznar,hdonaire@example.net,España,2024-05-29,bronze
+CUST-00266,Remedios Sol Pinto Coloma,amilcarcanet@example.org,España,2024-01-30,bronze
+CUST-00267,Isidro Mir Riquelme,sevefrias@example.com,España,2026-01-02,platinum
+CUST-00268,Remedios Soto,cerveraaurelia@example.org,España,2024-01-15,bronze
+CUST-00269,Eufemia del Zaragoza,lmir@example.com,España,2025-09-18,bronze
+CUST-00270,Fabiana del Lamas,pfernandez@example.com,España,2025-12-10,silver
+CUST-00271,Emma de Martorell,julie37@example.com,España,2023-07-25,gold
+CUST-00272,Febe Llanos Maestre,pinoteresita@example.com,España,2024-08-29,bronze
+CUST-00273,Reina Coll Manrique,maestrelidia@example.org,España,2024-01-03,bronze
+CUST-00274,Ángela Salamanca Jerez,mgargallo@example.net,España,2025-12-29,bronze
+CUST-00275,Lisandro Llabrés-Cervantes,herasjose-carlos@example.org,España,2023-04-04,platinum
+CUST-00276,Coral Guerrero,cabreraseveriano@example.com,España,2026-02-07,bronze
+CUST-00277,Armida Cervantes Adadia,santostamarit@example.com,España,2023-09-16,silver
+CUST-00278,Reyes Madrigal,lucho01@example.net,España,2025-10-02,bronze
+CUST-00279,Cristina Arcos-Díez,cecheverria@example.com,España,2023-01-26,silver
+CUST-00280,Cayetana Mancebo Arcos,martinclementina@example.net,España,2025-08-19,bronze
+CUST-00281,Florencio Luís Santos,gcanete@example.com,España,2024-11-28,bronze
+CUST-00282,Clemente Capdevila-Muro,lupesegarra@example.net,España,2023-04-16,bronze
+CUST-00283,Plinio Estrada-Alcalá,morena49@example.net,España,2025-09-05,bronze
+CUST-00284,Chucho Ramirez,uvillalba@example.org,España,2023-05-14,bronze
+CUST-00285,Nayara Bustos Esteban,albinamorales@example.org,España,2023-06-01,silver
+CUST-00286,Eladio Pla Gutiérrez,vlasa@example.com,España,2023-04-20,bronze
+CUST-00287,Paloma Alberdi-Jurado,jimena30@example.net,España,2026-02-26,gold
+CUST-00288,Joan Melero Cuesta,tvalverde@example.com,España,2023-06-24,platinum
+CUST-00289,Miguel Marquez Pedrero,isidorocanellas@example.com,España,2023-08-31,silver
+CUST-00290,Javi Pereira Ricart,wgil@example.org,España,2025-05-02,silver
+CUST-00291,Trinidad Rocío Bilbao Zaragoza,talvarez@example.com,España,2024-04-07,silver
+CUST-00292,Álvaro Caparrós Barrio,constanzaconde@example.org,España,2025-02-18,bronze
+CUST-00293,Tania Viña Sala,fuertesliliana@example.net,España,2025-06-25,bronze
+CUST-00294,Apolonia Vicens Salinas,santanaeligio@example.net,España,2025-05-28,bronze
+CUST-00295,Jessica Barco Sevilla,loreto06@example.com,España,2023-05-04,silver
+CUST-00296,Ramón Gibert Beltran,rodaomar@example.net,España,2023-07-23,gold
+CUST-00297,Kike Barrena Bayón,sangulo@example.com,España,2024-03-01,silver
+CUST-00298,Rodrigo Cerdá Rivera,tatiana67@example.com,España,2024-06-25,silver
+CUST-00299,Anita Cañas Oliveras,escalonabrigida@example.com,España,2023-11-18,bronze
+CUST-00300,Belen Gisbert,alsinamarc@example.com,España,2026-02-04,bronze
+CUST-00301,Imelda del Gras,edgaroliva@example.org,España,2023-01-06,bronze
+CUST-00302,Ciríaco Carbajo-Antón,palcazar@example.org,España,2025-08-20,bronze
+CUST-00303,Aureliano Aragonés Salom,hierromanu@example.org,España,2024-04-19,bronze
+CUST-00304,Isabel Guillén Gaya,chavesanita@example.com,España,2024-08-02,silver
+CUST-00305,Saturnino del Montes,marcianoclemente@example.net,España,2025-07-18,bronze
+CUST-00306,Consuela Reyes,leonardo08@example.net,España,2024-04-23,gold
+CUST-00307,Matías Roldán Valcárcel,ocanafernanda@example.net,España,2024-02-10,bronze
+CUST-00308,Roberta Zamorano Montalbán,jreal@example.com,España,2026-01-20,bronze
+CUST-00309,Catalina Sáenz Hernando,marcelocobos@example.com,España,2023-11-02,gold
+CUST-00310,Lisandro Rey Riera,romanherrero@example.com,España,2023-10-19,bronze
+CUST-00311,Fito Bermúdez,fpelaez@example.net,España,2023-12-06,silver
+CUST-00312,Amancio Ledesma,eariza@example.org,España,2026-03-11,gold
+CUST-00313,Paloma Gaya-Tello,ruthmendez@example.com,España,2025-06-18,bronze
+CUST-00314,Curro Falcón Carpio,sherrera@example.net,España,2024-09-14,silver
+CUST-00315,Heliodoro Heras,maura46@example.com,España,2024-07-11,silver
+CUST-00316,Mirta del Mendez,placido87@example.com,España,2025-10-08,bronze
+CUST-00317,Samu Soria Montero,raimundomilla@example.com,España,2023-03-23,gold
+CUST-00318,Lope Giralt Coello,juliancarolina@example.net,España,2024-10-22,silver
+CUST-00319,Pacífica Rios-Marquez,gustavomurcia@example.org,España,2023-02-22,bronze
+CUST-00320,Mariana Hoyos Valera,jose-angel77@example.com,España,2023-02-12,platinum
+CUST-00321,Quique Ortuño Dominguez,lolatorres@example.org,España,2024-07-05,silver
+CUST-00322,Miguela de Zamora,benaventeolimpia@example.net,España,2023-12-25,bronze
+CUST-00323,Roberto Agudo Revilla,purificacionguardia@example.org,España,2025-06-24,gold
+CUST-00324,Adalberto Gil Vega,dperea@example.net,España,2024-01-07,platinum
+CUST-00325,Zaira Julie Torrents Alcázar,reinaalbano@example.org,España,2025-06-11,silver
+CUST-00326,Palmira Llobet,ale86@example.org,España,2025-10-04,platinum
+CUST-00327,Ángel Bárcena Zamora,jose-angelfernandez@example.net,España,2025-08-20,bronze
+CUST-00328,Dolores Pablo,natalia61@example.com,España,2024-11-13,bronze
+CUST-00329,Jimena Hervia Gonzalez,isaura10@example.org,España,2023-08-03,gold
+CUST-00330,Fortunata Pi Tamarit,agustijulia@example.org,España,2024-11-06,bronze
+CUST-00331,Josep Roura Muñoz,alvarezzaira@example.org,España,2025-10-11,bronze
+CUST-00332,Curro del Linares,benaventeisaura@example.com,España,2025-03-31,gold
+CUST-00333,Marcela de Escobar,alcides39@example.org,España,2026-01-31,bronze
+CUST-00334,Áurea Benítez Martínez,cintiahernandez@example.net,España,2023-06-30,bronze
+CUST-00335,Nicolasa Mármol Plana,morenabermudez@example.net,España,2024-10-24,bronze
+CUST-00336,Amelia Cabañas Ruiz,pilibenitez@example.com,España,2025-04-07,gold
+CUST-00337,Rebeca María Luisa Puente Morera,llanomiguela@example.com,España,2023-01-03,silver
+CUST-00338,Corona Pagès Perez,restevez@example.net,España,2026-01-16,bronze
+CUST-00339,Anselma Marquez Hoz,blancajulio@example.org,España,2023-04-22,bronze
+CUST-00340,Olivia Correa Porras,poncio11@example.org,España,2025-01-10,silver
+CUST-00341,Iván Geraldo Lerma Calatayud,chuchoexposito@example.com,España,2025-10-17,silver
+CUST-00342,Manuela Vila Raya,amochuy@example.com,España,2023-04-16,bronze
+CUST-00343,Araceli del Plaza,manzanaresseveriano@example.com,España,2026-01-29,bronze
+CUST-00344,Primitivo Herrero Vázquez,isidorapintor@example.org,España,2024-08-12,bronze
+CUST-00345,Eloy Mascaró Ledesma,ecoello@example.org,España,2025-09-19,bronze
+CUST-00346,Eliana Robledo Marí,xbenitez@example.com,España,2024-05-05,silver
+CUST-00347,Poncio del Ferrán,icampo@example.com,España,2024-09-28,silver
+CUST-00348,Hector Márquez Pinto,valerio56@example.net,España,2026-02-05,bronze
+CUST-00349,Bernarda Emperatriz Montes Font,lmiralles@example.com,España,2024-04-05,platinum
+CUST-00350,Emelina Tudela Herrera,renato46@example.com,España,2023-08-21,bronze
+CUST-00351,Lope Folch Escolano,serranoleandra@example.org,España,2023-08-29,silver
+CUST-00352,Rosalva Manuel Bayón,ivalera@example.net,España,2023-11-12,bronze
+CUST-00353,Dionisio Edmundo Correa Rocha,cbenavent@example.net,España,2024-08-20,silver
+CUST-00354,Marisela Pérez Velázquez,yarco@example.com,España,2024-07-13,bronze
+CUST-00355,Martirio de Canales,gemapadilla@example.org,España,2025-09-15,platinum
+CUST-00356,Amada Marcela Pulido Mármol,acamacho@example.org,España,2024-05-14,bronze
+CUST-00357,Dan Vicens-Villena,victor-manuelperello@example.com,España,2023-10-24,bronze
+CUST-00358,Reina Vall Contreras,amador71@example.com,España,2025-11-06,silver
+CUST-00359,Águeda Boada Carmona,pablomesa@example.com,España,2023-10-07,gold
+CUST-00360,Rita Gabaldón Vázquez,eolive@example.org,España,2024-07-19,silver
+CUST-00361,Palmira Santamaria Montaña,marinarsenio@example.net,España,2025-04-29,bronze
+CUST-00362,Aitor Novoa Canales,manuhervas@example.net,España,2025-11-05,bronze
+CUST-00363,Leoncio Cuesta Muro,osevilla@example.com,España,2023-01-06,bronze
+CUST-00364,Ciro Rosell Priego,figueroavinicio@example.net,España,2024-09-03,gold
+CUST-00365,Gema Acuña Garmendia,leonbarros@example.net,España,2025-09-29,gold
+CUST-00366,Salomón Estévez Paz,haroldo71@example.com,España,2025-07-03,silver
+CUST-00367,Lucía Millán Pont,wcarbonell@example.com,España,2024-12-07,bronze
+CUST-00368,María Pilar Duque Martorell,canetematias@example.org,España,2026-01-17,bronze
+CUST-00369,Ezequiel de España,joaquina28@example.com,España,2024-10-21,gold
+CUST-00370,María Cervera Pla,festevez@example.net,España,2024-05-04,silver
+CUST-00371,Nélida de Diaz,imalo@example.org,España,2024-04-23,gold
+CUST-00372,Soledad Sanmartín Baeza,agapito72@example.org,España,2025-04-21,bronze
+CUST-00373,Mar Vega Uría,atellez@example.net,España,2025-08-26,silver
+CUST-00374,Laura Diego Blanch,gimenezluis@example.org,España,2025-02-19,bronze
+CUST-00375,Daniel Malo-Diéguez,jvalbuena@example.net,España,2023-11-08,bronze
+CUST-00376,Luciano Carbonell Leal,candela07@example.net,España,2023-03-17,bronze
+CUST-00377,Ibán Calatayud,manuelantunez@example.com,España,2024-11-10,gold
+CUST-00378,Félix Bonet-Saavedra,galvezhugo@example.net,España,2025-06-20,bronze
+CUST-00379,Noemí Orozco-Roman,encarnacionchaparro@example.org,España,2025-07-24,bronze
+CUST-00380,Samuel Barranco,berta49@example.net,España,2023-10-23,bronze
+CUST-00381,Felix Marco Mancebo,rosa81@example.org,España,2023-11-13,bronze
+CUST-00382,Ágata Barranco Lluch,judithcazorla@example.org,España,2024-06-26,bronze
+CUST-00383,Pelayo Montserrat Huertas,jtovar@example.net,España,2025-03-25,silver
+CUST-00384,Mauricio Ribas-Perez,obenet@example.org,España,2024-11-03,gold
+CUST-00385,Lola Lobo Peinado,utorrents@example.net,España,2025-12-28,bronze
+CUST-00386,Toño Buendía Sedano,remedios18@example.com,España,2024-10-10,silver
+CUST-00387,Iker Galán,uledesma@example.com,España,2025-09-26,gold
+CUST-00388,Maite Castrillo Toro,tere00@example.org,España,2023-03-15,silver
+CUST-00389,Adriana Casanova Cruz,asastre@example.com,España,2024-04-25,silver
+CUST-00390,Omar Catalán,federico41@example.net,España,2024-08-11,platinum
+CUST-00391,Dionisia Blanca Peral,baldomeroprieto@example.net,España,2023-07-05,bronze
+CUST-00392,Primitivo Pancho Guillén Román,bustamanteabel@example.org,España,2023-07-21,silver
+CUST-00393,Angélica Cazorla Gonzalo,aagusti@example.net,España,2023-07-25,bronze
+CUST-00394,Salomé Carreño Roca,alebelda@example.org,España,2024-09-05,gold
+CUST-00395,Anunciación Calatayud Calderón,quirino42@example.com,España,2023-04-05,bronze
+CUST-00396,Miguel Ángel Clavero Bayona,cordobavalerio@example.com,España,2023-04-25,bronze
+CUST-00397,Mauricio Cordero,nsalas@example.org,España,2025-02-06,bronze
+CUST-00398,Buenaventura Casal Plana,timoteo52@example.org,España,2024-05-15,silver
+CUST-00399,Mohamed Blasco-Hurtado,melania04@example.org,España,2026-03-05,silver
+CUST-00400,María Dolores Vergara,marianapou@example.com,España,2024-01-04,bronze
+CUST-00401,Ruben Heras Uría,pcapdevila@example.com,España,2023-06-11,silver
+CUST-00402,Andrea Lucía Albero Paniagua,eligio69@example.com,España,2025-02-22,silver
+CUST-00403,Magdalena Duque Sotelo,alegriadiana@example.org,España,2024-05-08,bronze
+CUST-00404,Eleuterio Garriga Ariño,puigantonia@example.com,España,2023-10-21,bronze
+CUST-00405,Raquel Ribes,fquesada@example.net,España,2024-06-04,bronze
+CUST-00406,Lupita de Lobato,menendezcayetano@example.net,España,2023-01-20,gold
+CUST-00407,Sancho Cortés,rosendo91@example.com,España,2025-08-10,gold
+CUST-00408,Pastora Gómez Barco,chemarovira@example.org,España,2026-01-24,bronze
+CUST-00409,María José Ballesteros Mendoza,dimasalberola@example.net,España,2025-06-23,gold
+CUST-00410,Pascual Alberdi Céspedes,holiver@example.net,España,2024-09-04,silver
+CUST-00411,Celso Peral-Castañeda,luz10@example.com,España,2025-05-18,silver
+CUST-00412,Elena Zabaleta Bartolomé,leticia91@example.com,España,2025-07-24,gold
+CUST-00413,Lina Palomino Baquero,xdiaz@example.org,España,2024-02-12,platinum
+CUST-00414,Rolando Calderon-Carlos,manuverdu@example.org,España,2025-09-16,bronze
+CUST-00415,Timoteo Alberola Hidalgo,suarezprudencio@example.com,España,2025-02-20,silver
+CUST-00416,Chuy Aranda Rius,modestohurtado@example.com,España,2024-08-28,platinum
+CUST-00417,Elba Bermejo Peralta,vallesignacia@example.org,España,2024-08-27,bronze
+CUST-00418,Dani Villalobos Arteaga,dbayon@example.com,España,2025-03-21,bronze
+CUST-00419,Fernando Armando Saura Aguiló,herberto49@example.com,España,2026-03-05,gold
+CUST-00420,Daniela Jordana Pedrosa Uriarte,luzhigueras@example.org,España,2023-04-11,gold
+CUST-00421,Hernando Alvarez Guijarro,fanny05@example.org,España,2025-10-14,gold
+CUST-00422,Susana Meléndez Calleja,benitagarate@example.com,España,2024-08-09,silver
+CUST-00423,América Cisneros Losada,arranzafrica@example.org,España,2024-04-16,silver
+CUST-00424,Haydée Perales,lblazquez@example.org,España,2024-12-22,bronze
+CUST-00425,Benita Prado,barriostrinidad@example.net,España,2024-01-25,silver
+CUST-00426,Diego Manzanares Julián,angeles65@example.com,España,2023-10-08,silver
+CUST-00427,Elena Guillen Benavente,eliascanales@example.org,España,2023-03-22,bronze
+CUST-00428,Celestino Sancho Solano,santos18@example.com,España,2025-06-21,bronze
+CUST-00429,Jaime Mendez,hlanda@example.org,España,2025-01-17,silver
+CUST-00430,Sancho Mayo Arjona,petronamosquera@example.org,España,2023-07-04,gold
+CUST-00431,Pelayo Hurtado Pagès,dvilanova@example.net,España,2024-10-31,silver
+CUST-00432,Eladio Sebastián Dávila Anguita,jsantamaria@example.net,España,2023-12-26,bronze
+CUST-00433,Diana de Sevilla,chavesdomingo@example.org,España,2026-01-09,gold
+CUST-00434,Severo Girón Castrillo,palmiraperez@example.com,España,2025-01-19,silver
+CUST-00435,Lupe Jove Benavides,baronhector@example.net,España,2024-07-12,gold
+CUST-00436,Rufina Castells Briones,donato07@example.org,España,2024-06-10,gold
+CUST-00437,Óscar Rosselló Prat,yandreu@example.net,España,2025-09-13,platinum
+CUST-00438,Carmela Otero Garmendia,leonardolosada@example.com,España,2024-08-27,silver
+CUST-00439,Ale Hoyos Marquez,jrequena@example.com,España,2024-11-24,gold
+CUST-00440,Armando Losa Piñol,simonflores@example.net,España,2025-08-17,platinum
+CUST-00441,Diana Aliaga,epalomar@example.net,España,2023-10-16,silver
+CUST-00442,Fabiola Vallés Montoya,lleon@example.org,España,2024-04-07,gold
+CUST-00443,María Gilabert Andreu,bautista78@example.com,España,2025-03-24,platinum
+CUST-00444,Cruz Cuervo-Cabrera,galahernando@example.com,España,2026-02-15,bronze
+CUST-00445,Sabina de Gimenez,lpacheco@example.org,España,2025-03-19,bronze
+CUST-00446,Manu del Palmer,ortizclementina@example.net,España,2026-01-03,bronze
+CUST-00447,Lope Fabra Ugarte,gabino70@example.org,España,2025-01-24,silver
+CUST-00448,Demetrio Gilabert Aller,vabascal@example.net,España,2024-06-20,silver
+CUST-00449,Samuel Castrillo,liliana25@example.org,España,2025-01-30,bronze
+CUST-00450,Candelario Cifuentes Cantero,camilo56@example.net,España,2024-04-23,bronze
+CUST-00451,Florentino Matas Mora,faustorueda@example.net,España,2026-02-23,bronze
+CUST-00452,Mirta Molins Dávila,jacinto92@example.com,España,2024-03-29,silver
+CUST-00453,Quique Omar Mariño Castejón,luisinaabellan@example.net,España,2025-08-08,gold
+CUST-00454,Genoveva Antúnez-Espada,africa93@example.net,España,2024-09-10,silver
+CUST-00455,Aránzazu Valderrama-Chico,marcia13@example.com,España,2023-08-27,bronze
+CUST-00456,Carina Borrego Narváez,qalberdi@example.org,España,2023-03-18,bronze
+CUST-00457,Osvaldo de Ordóñez,miriam10@example.org,España,2025-10-05,bronze
+CUST-00458,Isabel Rivas Delgado,yurena@example.com,España,2024-04-25,gold
+CUST-00459,Florina de Tello,ferminsanmiguel@example.org,España,2023-10-05,bronze
+CUST-00460,Eugenio Almagro Montalbán,cruz15@example.org,España,2025-01-29,silver
+CUST-00461,Candelaria Benavides Buendía,dorotea97@example.net,España,2026-01-11,bronze
+CUST-00462,Ildefonso Cózar Rovira,balduinocadenas@example.com,España,2023-11-13,gold
+CUST-00463,Claudio Recio,gertrudis44@example.org,España,2023-07-22,gold
+CUST-00464,Amador Pozo Tudela,baltasarpalomo@example.org,España,2025-04-15,gold
+CUST-00465,Antonia Mariño Tenorio,cletoamigo@example.org,España,2024-07-26,bronze
+CUST-00466,Melchor Manzanares Bilbao,tcarlos@example.com,España,2025-01-28,bronze
+CUST-00467,Laura Landa Bou,xesteban@example.com,España,2025-06-29,platinum
+CUST-00468,Cayetana Salinas Arribas,valerio74@example.org,España,2025-01-12,bronze
+CUST-00469,Lope Barrio-Corbacho,boadaguiomar@example.com,España,2025-01-22,silver
+CUST-00470,Haydée de Barrera,ayanez@example.net,España,2025-01-04,bronze
+CUST-00471,Maribel Gutiérrez Tamayo,cayetano60@example.net,España,2024-07-19,bronze
+CUST-00472,Xiomara Villanueva-Colom,sanchezfulgencio@example.org,España,2023-09-08,gold
+CUST-00473,Sancho Fernández,aristidesroda@example.org,España,2025-07-20,bronze
+CUST-00474,Cintia Coloma Jordá,visitacion11@example.com,España,2024-03-10,silver
+CUST-00475,Gisela del Llorente,yalberola@example.net,España,2023-02-13,bronze
+CUST-00476,Maristela Lourdes Rivas Capdevila,jconde@example.net,España,2024-11-14,bronze
+CUST-00477,Marisela Cabrera-Camacho,maciasrufina@example.net,España,2023-09-15,silver
+CUST-00478,Valeria Reig Laguna,ktorralba@example.net,España,2024-02-25,bronze
+CUST-00479,Alma Dueñas Llorens,ncobo@example.net,España,2026-02-09,bronze
+CUST-00480,Alma Priego Muñoz,augustotalavera@example.com,España,2024-03-18,gold
+CUST-00481,Ainara Nebot Mateo,lisandro71@example.org,España,2024-04-22,bronze
+CUST-00482,Eutimio Salazar Montesinos,luisina69@example.net,España,2023-10-30,silver
+CUST-00483,Ciríaco Sala Galván,wtormo@example.net,España,2023-01-06,bronze
+CUST-00484,Samanta Barbero Villalba,blasmerino@example.net,España,2023-10-24,platinum
+CUST-00485,Graciana Cerdá,duranguadalupe@example.org,España,2026-01-11,bronze
+CUST-00486,Edelmiro Aparicio Sastre,palomojulie@example.org,España,2023-12-24,bronze
+CUST-00487,Gerónimo Simó-Vazquez,rcasals@example.org,España,2023-02-22,bronze
+CUST-00488,Gilberto del Salmerón,sabinasanchez@example.net,España,2025-01-03,silver
+CUST-00489,Felicia del Cárdenas,marianela14@example.org,España,2024-05-02,silver
+CUST-00490,Amarilis Cánovas Gargallo,florgomis@example.net,España,2023-02-02,bronze
+CUST-00491,Eloy Recio,agulloainoa@example.org,España,2023-04-18,bronze
+CUST-00492,Marcelo Aguirre Goicoechea,ema44@example.com,España,2025-05-12,silver
+CUST-00493,Tamara Oller Segovia,isaias74@example.net,España,2023-05-11,bronze
+CUST-00494,Sara Puerta,aguileraariadna@example.net,España,2025-01-11,silver
+CUST-00495,Mar Lumbreras Martín,tiradobernardo@example.com,España,2023-08-12,bronze
+CUST-00496,Miguel Morcillo-Lluch,gabriela43@example.org,España,2024-03-29,gold
+CUST-00497,Ramona Hernandez,quinterogertrudis@example.com,España,2023-03-30,silver
+CUST-00498,Poncio Amigó Valencia,juan-antonio66@example.com,España,2025-12-03,bronze
+CUST-00499,Lupe Falcó Novoa,itziartamarit@example.net,España,2023-03-05,bronze
+CUST-00500,Lilia Marín Domínguez,lazarocabanillas@example.com,España,2025-09-07,gold
+CUST-00501,Raimundo Jordán España,fatima13@example.com,España,2025-05-23,silver
+CUST-00502,Ramón del Rivero,ramiro49@example.com,España,2025-10-01,silver
+CUST-00503,Susanita Carranza Sosa,beldaagustina@example.org,España,2025-06-27,bronze
+CUST-00504,Azeneth Pizarro,severiano02@example.org,España,2023-06-15,bronze
+CUST-00505,Francisco Javier Recio,uclemente@example.net,España,2023-10-31,bronze
+CUST-00506,Roque Berrocal Torrent,evangelina25@example.net,España,2024-07-17,silver
+CUST-00507,Abilio Sans Llanos,mariadomingo@example.net,España,2026-01-28,silver
+CUST-00508,Jose Ignacio Borja Castilla,zroman@example.com,España,2025-02-19,platinum
+CUST-00509,Fátima Acuña Arellano,lupeperea@example.org,España,2025-12-22,bronze
+CUST-00510,Prudencia Farré Alemán,ibarrajaime@example.net,España,2025-11-01,silver
+CUST-00511,Esperanza Castelló Calderon,lvaquero@example.com,España,2023-07-23,silver
+CUST-00512,Anacleto Arroyo Martí,xavier89@example.net,España,2023-08-23,gold
+CUST-00513,Irma Cañete Noriega,wpalomar@example.org,España,2026-02-03,silver
+CUST-00514,Wilfredo Quintanilla Aliaga,jacobocastro@example.org,España,2024-03-16,bronze
+CUST-00515,Macario Vargas Dominguez,pazosleonor@example.net,España,2024-04-12,bronze
+CUST-00516,Godofredo Jaume Atienza,campoyfrancisca@example.org,España,2025-07-17,bronze
+CUST-00517,Onofre Carmona Riera,hpinto@example.net,España,2023-07-14,bronze
+CUST-00518,Jordi Coronado-Fuertes,mascarososimo@example.net,España,2024-10-02,silver
+CUST-00519,Natanael Viña Lerma,silviocalvo@example.net,España,2025-02-05,platinum
+CUST-00520,Azahara Elisabet Carbonell Camino,mfiol@example.org,España,2025-08-29,bronze
+CUST-00521,Severo Zabala-Franch,juliana64@example.org,España,2023-06-24,bronze
+CUST-00522,Leocadio Valderrama Galiano,pmuro@example.org,España,2023-07-17,silver
+CUST-00523,Nico Borrell Cano,fcompany@example.net,España,2025-02-02,gold
+CUST-00524,Porfirio Cadenas Jaén,yagomarti@example.com,España,2026-02-13,bronze
+CUST-00525,Amarilis Cabo Díaz,mansoplacido@example.net,España,2026-02-24,silver
+CUST-00526,Inmaculada Carmona Bustamante,agustireyes@example.org,España,2023-09-08,bronze
+CUST-00527,Fidel Pallarès Río,selena15@example.com,España,2025-05-16,gold
+CUST-00528,Baudelio Pérez Páez,yllabres@example.net,España,2023-04-16,platinum
+CUST-00529,Rosalía Robles Diaz,cazorlajosefa@example.net,España,2024-10-01,bronze
+CUST-00530,Telmo Cuervo Calleja,ztolosa@example.net,España,2025-11-05,bronze
+CUST-00531,Carolina Pino Palmer,castrilloalmudena@example.com,España,2025-09-14,bronze
+CUST-00532,Vicente Reina Saez,barrosojuan-carlos@example.net,España,2023-08-10,bronze
+CUST-00533,Adora Zamorano Goicoechea,aurelia89@example.org,España,2026-02-13,bronze
+CUST-00534,Nadia Ibarra Tirado,gracia62@example.net,España,2024-07-24,silver
+CUST-00535,Amelia Adelina Crespo Vega,kvalcarcel@example.org,España,2025-05-28,gold
+CUST-00536,Estrella Hernando Muro,aureliano83@example.net,España,2026-02-14,bronze
+CUST-00537,Graciana Gutierrez Bermúdez,zsaldana@example.net,España,2024-07-01,bronze
+CUST-00538,Anunciación Valentín Salvador,diego70@example.org,España,2024-07-13,silver
+CUST-00539,Haydée Araujo Abad,mayotania@example.net,España,2024-09-24,gold
+CUST-00540,Clarisa del Nogueira,paola03@example.com,España,2024-12-19,bronze
+CUST-00541,Manuelita Suárez Parra,gcarbonell@example.net,España,2023-10-21,silver
+CUST-00542,Abel del Padilla,carla85@example.net,España,2025-03-31,bronze
+CUST-00543,Alonso Córdoba Ugarte,pacarecio@example.org,España,2023-03-04,bronze
+CUST-00544,Marcos Ferrández-Expósito,pozoildefonso@example.com,España,2025-12-22,bronze
+CUST-00545,Pepito Neira,ribasarturo@example.net,España,2025-05-09,bronze
+CUST-00546,Beatriz Sanjuan-Sebastián,andreaacosta@example.net,España,2023-11-19,bronze
+CUST-00547,Leonel Roselló Tomas,jesusaduran@example.net,España,2024-10-26,silver
+CUST-00548,Baldomero Ponce Montserrat,mriquelme@example.net,España,2026-03-08,silver
+CUST-00549,Emigdio del Novoa,victor22@example.com,España,2023-04-18,bronze
+CUST-00550,Odalis Vicenta Vila Martínez,leonor83@example.org,España,2023-04-12,silver
+CUST-00551,Mateo Manso,africa22@example.net,España,2024-07-11,bronze
+CUST-00552,Nélida del Carlos,chita79@example.net,España,2025-05-18,bronze
+CUST-00553,Nereida Macias Rocamora,yanezcustodio@example.org,España,2025-06-24,bronze
+CUST-00554,Blanca Baena Barbero,juanitocuevas@example.com,España,2024-03-17,silver
+CUST-00555,Camilo Barrios-Marquez,marisaantunez@example.com,España,2023-08-22,bronze
+CUST-00556,Aroa Gomez Porcel,ariadnamaestre@example.net,España,2023-08-16,bronze
+CUST-00557,Graciano Ponce Riera,carmina00@example.net,España,2025-09-23,silver
+CUST-00558,Cosme Salazar-Gomis,marisol98@example.net,España,2024-09-23,bronze
+CUST-00559,Chelo Renata Ferrer Mariscal,relias@example.org,España,2025-03-20,platinum
+CUST-00560,Chema Vilaplana Carreras,barmas@example.com,España,2023-04-23,bronze
+CUST-00561,Dulce de Cuevas,adelardo57@example.net,España,2024-09-09,gold
+CUST-00562,Alex Corral Mora,mascaroamor@example.net,España,2023-10-09,silver
+CUST-00563,Felisa de Moll,geronimovinas@example.org,España,2024-08-15,bronze
+CUST-00564,Candela Ricart,wbriones@example.org,España,2023-01-16,bronze
+CUST-00565,Natanael Mármol,poncio43@example.net,España,2025-05-31,bronze
+CUST-00566,Juanita Agullo,olivavictor-manuel@example.org,España,2025-02-17,silver
+CUST-00567,Ágata María Ángeles Hervás Ariño,rico16@example.com,España,2024-04-16,silver
+CUST-00568,Paloma del Amat,aroa87@example.com,España,2024-12-26,bronze
+CUST-00569,Eusebio Fernández Montes,baezflorencio@example.net,España,2023-03-28,bronze
+CUST-00570,Adelaida de Galvez,rosaurarodrigo@example.org,España,2025-07-30,gold
+CUST-00571,Julio César Rozas,corralamado@example.com,España,2024-10-03,silver
+CUST-00572,Alma Bonilla Beltrán,enriqueznarcisa@example.com,España,2026-03-20,bronze
+CUST-00573,Andrea de Jordán,cpons@example.net,España,2025-05-05,bronze
+CUST-00574,Iris Molina Alegria,icarrasco@example.org,España,2025-04-09,bronze
+CUST-00575,Ana Belén Prudencia Arroyo Belmonte,ingrid81@example.com,España,2024-10-27,bronze
+CUST-00576,Marcio Armando Lucena Río,qprats@example.org,España,2025-07-31,gold
+CUST-00577,Camila Gimeno Cerezo,omarquez@example.org,España,2025-01-11,bronze
+CUST-00578,Nilo Vicente Perea Alba,duilioarnaiz@example.org,España,2023-08-05,bronze
+CUST-00579,María Prado-Blázquez,humberto53@example.com,España,2025-03-31,silver
+CUST-00580,Bibiana Cuevas,ismaeliriarte@example.org,España,2025-03-21,gold
+CUST-00581,Cipriano Ballester Serra,mansohilda@example.org,España,2024-11-26,bronze
+CUST-00582,Augusto Figueroa-Torrens,pepe23@example.org,España,2023-12-11,bronze
+CUST-00583,Martín Andrés Ferrer Moll,vsanjuan@example.net,España,2023-08-22,silver
+CUST-00584,Ovidio Luís Corominas Pastor,tiburcio20@example.com,España,2024-02-02,gold
+CUST-00585,Rubén de Rubio,priscila52@example.net,España,2024-12-16,bronze
+CUST-00586,Valeria Tena Sevillano,xpalmer@example.com,España,2023-10-30,bronze
+CUST-00587,Mamen Camps Echevarría,lozanorosa-maria@example.org,España,2023-10-27,bronze
+CUST-00588,Chelo del Benito,alfonsoreina@example.net,España,2023-12-22,silver
+CUST-00589,Santos Quirós Garcia,juliacandelaria@example.net,España,2023-06-04,bronze
+CUST-00590,Montserrat Comas Paz,xgodoy@example.net,España,2025-10-08,bronze
+CUST-00591,Bonifacio Jesús Vallejo Vicens,puenteprudencio@example.net,España,2026-02-28,silver
+CUST-00592,Natanael Haro Daza,victor-manuelcuervo@example.org,España,2025-07-08,silver
+CUST-00593,Marcia Coll-Tomás,apolinar37@example.org,España,2026-03-02,silver
+CUST-00594,Eligio Peiró Guillén,gabaldonaura@example.com,España,2024-10-23,gold
+CUST-00595,José Sanz Artigas,morantecristian@example.net,España,2024-10-09,bronze
+CUST-00596,Melisa Llanos,cristina89@example.org,España,2023-05-20,bronze
+CUST-00597,Montserrat Pinedo Pavón,villanuevajose@example.com,España,2024-09-12,silver
+CUST-00598,Juan del Osorio,amanda79@example.org,España,2023-04-26,bronze
+CUST-00599,Vera Chamorro,odaza@example.org,España,2023-06-01,bronze
+CUST-00600,Milagros Lucas,eutimioestevez@example.org,España,2025-07-14,bronze
+CUST-00601,María Cristina Carrasco Grau,umurillo@example.org,España,2025-01-25,gold
+CUST-00602,Nereida Tejero Tello,domingacuellar@example.net,España,2023-06-07,silver
+CUST-00603,Ainoa Hervás Aroca,consuelacuevas@example.org,España,2023-07-04,silver
+CUST-00604,Almudena Collado,delgadojuan@example.org,España,2025-11-04,bronze
+CUST-00605,Graciela Alfonso,che37@example.net,España,2026-02-09,platinum
+CUST-00606,Teófila Tirado Donaire,paulinareig@example.net,España,2023-03-26,bronze
+CUST-00607,Régulo Espada Vicente,florencio57@example.net,España,2026-03-16,silver
+CUST-00608,Anastasia Gras-Pineda,gcatalan@example.org,España,2024-10-20,silver
+CUST-00609,Juan Carlos Varela,mconde@example.org,España,2025-10-23,bronze
+CUST-00610,Jordán Arias Vaquero,buendiaalma@example.net,España,2023-05-07,bronze
+CUST-00611,Virgilio Abella Rosado,cpellicer@example.net,España,2024-12-04,platinum
+CUST-00612,Inés Grande,wpiquer@example.net,España,2023-06-22,silver
+CUST-00613,Ariel Roig-Cañete,albina31@example.com,España,2023-12-20,bronze
+CUST-00614,Valentina Macaria Real Jiménez,adelardoaguilar@example.net,España,2025-06-15,platinum
+CUST-00615,Azahara Vizcaíno,perezfatima@example.org,España,2025-12-09,silver
+CUST-00616,Guadalupe Paredes Campillo,teodosioizaguirre@example.com,España,2023-11-22,bronze
+CUST-00617,Ileana del Llorens,afrias@example.net,España,2024-08-02,bronze
+CUST-00618,Julie de Pellicer,tizaguirre@example.net,España,2024-11-23,silver
+CUST-00619,Remedios Puig Cervera,grasvictoriano@example.net,España,2023-04-18,silver
+CUST-00620,Aureliano Garmendia Verdugo,znevado@example.net,España,2024-11-16,bronze
+CUST-00621,Obdulia Noa Azorin Cuevas,zadadia@example.org,España,2023-07-13,silver
+CUST-00622,Jonatan Rozas Borja,jodarivan@example.com,España,2025-03-02,bronze
+CUST-00623,Marco Arellano Planas,svazquez@example.net,España,2023-11-04,bronze
+CUST-00624,Amparo Remedios Díez Urrutia,malarcon@example.net,España,2023-10-17,gold
+CUST-00625,Eloísa Ferreras,vicensascension@example.net,España,2024-09-27,platinum
+CUST-00626,Marino de Araujo,jorge02@example.org,España,2025-03-13,bronze
+CUST-00627,Rosario Pulido-Osuna,lramirez@example.org,España,2023-06-23,bronze
+CUST-00628,Adoración Bayona,luislucila@example.net,España,2025-02-10,silver
+CUST-00629,Febe Olivera-Lloret,eloisaferreras@example.com,España,2024-11-03,gold
+CUST-00630,Maricela Acuña Julián,santosvelasco@example.org,España,2025-12-14,bronze
+CUST-00631,Angelina del Nieto,vilanovajose-angel@example.net,España,2025-05-17,silver
+CUST-00632,Dionisia Salas-Pi,whervia@example.com,España,2023-02-07,bronze
+CUST-00633,Nieves Serna Amorós,qcarnero@example.org,España,2024-01-05,platinum
+CUST-00634,Melisa Giménez Gras,seve58@example.net,España,2024-11-30,gold
+CUST-00635,Pancho Lago Hurtado,ciro65@example.org,España,2025-09-22,bronze
+CUST-00636,Íngrid de Tamayo,paulino39@example.com,España,2023-10-09,bronze
+CUST-00637,Raúl Falcón Valenzuela,joelherranz@example.com,España,2024-08-28,gold
+CUST-00638,Darío Franco,piedadpalacio@example.org,España,2023-07-27,silver
+CUST-00639,Benito Bermudez Ugarte,arnalregina@example.com,España,2026-01-10,gold
+CUST-00640,María Teresa Miró Ugarte,amor28@example.com,España,2025-12-14,bronze
+CUST-00641,Consuela Castellanos Balaguer,itejera@example.org,España,2024-11-20,gold
+CUST-00642,Fanny Prada,zacariascarreno@example.net,España,2023-09-26,silver
+CUST-00643,Jimena Moles,alberoileana@example.org,España,2023-11-12,bronze
+CUST-00644,Marisa Cabrero Morell,emperatriz42@example.net,España,2023-12-06,silver
+CUST-00645,Diego Leon-Soto,pio27@example.com,España,2023-03-31,bronze
+CUST-00646,Hugo Perales,ricarda64@example.com,España,2024-05-01,platinum
+CUST-00647,Lucho Castro Granados,lermanilda@example.org,España,2024-08-06,silver
+CUST-00648,Iris del Ferrández,nereidaconde@example.com,España,2025-07-08,bronze
+CUST-00649,Chus Robles Valero,teodoravillanueva@example.net,España,2024-05-04,bronze
+CUST-00650,Roberta Torrecilla Marín,chita90@example.com,España,2025-08-18,gold
+CUST-00651,Onofre Cárdenas Barreda,odalysizquierdo@example.com,España,2024-02-02,bronze
+CUST-00652,Jafet Nadal Juan,placido88@example.com,España,2026-03-14,platinum
+CUST-00653,Ainara Requena Carrión,rufina93@example.net,España,2025-08-03,silver
+CUST-00654,Mirta Díaz-Luís,moreno87@example.net,España,2025-02-21,silver
+CUST-00655,Vilma Bermudez Piquer,abigail22@example.net,España,2025-05-07,platinum
+CUST-00656,Ignacia Quiroga Bellido,caceresolegario@example.org,España,2024-02-13,gold
+CUST-00657,Ester Manuel Lastra,clinares@example.com,España,2023-10-11,gold
+CUST-00658,Loreto Sanjuan-Riba,geronimoalvarado@example.org,España,2023-04-17,silver
+CUST-00659,Natalio del Bernal,flaviopuerta@example.org,España,2025-01-30,silver
+CUST-00660,Amílcar Sáenz Balaguer,puertaazucena@example.org,España,2023-07-30,silver
+CUST-00661,Eleuterio Cortés Blasco,omendoza@example.org,España,2025-11-22,gold
+CUST-00662,Ismael Matías Cases Castro,ambrosioarana@example.net,España,2024-08-06,bronze
+CUST-00663,Teodora Morell Tamayo,jllado@example.com,España,2023-11-25,bronze
+CUST-00664,Paco Elorza Saura,ozabaleta@example.net,España,2025-11-17,bronze
+CUST-00665,Esmeralda del Tirado,noaborras@example.com,España,2025-06-14,bronze
+CUST-00666,Gervasio Hilario Juan Cortés,agustin08@example.org,España,2024-03-30,gold
+CUST-00667,Eloísa Somoza Aguirre,ttejada@example.org,España,2024-12-16,gold
+CUST-00668,Rosalva Marco Guardia,pereiragonzalo@example.com,España,2025-04-29,bronze
+CUST-00669,Isa del Iborra,ligiaporta@example.com,España,2025-10-25,bronze
+CUST-00670,Eleuterio de Roca,asuncionllabres@example.com,España,2025-03-01,platinum
+CUST-00671,Rufina del Rey,reynabayona@example.org,España,2025-02-06,bronze
+CUST-00672,Espiridión Cano Sarabia,sllado@example.net,España,2024-10-14,gold
+CUST-00673,Cecilia Montes Aliaga,augustoalonso@example.org,España,2024-11-17,silver
+CUST-00674,Epifanio Leon Casares,oaguilo@example.org,España,2023-10-09,bronze
+CUST-00675,Adrián Uriarte Gaya,sosimo47@example.com,España,2025-08-25,silver
+CUST-00676,Obdulia Angulo Murillo,collbasilio@example.com,España,2023-10-12,silver
+CUST-00677,Andrea Soriano Escudero,teresitaibanez@example.com,España,2025-08-18,bronze
+CUST-00678,Benjamín Ibarra Plaza,vhuertas@example.org,España,2023-01-11,gold
+CUST-00679,Jeremías Burgos,ainaraporcel@example.net,España,2023-02-08,bronze
+CUST-00680,Felix Cebrián Arnal Viñas,isernalicia@example.net,España,2023-11-03,silver
+CUST-00681,Conrado Geraldo Azorin Gibert,guzmanevita@example.com,España,2025-12-16,bronze
+CUST-00682,Adoración Diego Llorente,priegomontserrat@example.org,España,2024-08-13,bronze
+CUST-00683,Alfonso Talavera Cortina,maria-manuela13@example.org,España,2023-09-07,bronze
+CUST-00684,Apolonia Nevado Barreda,pagesfilomena@example.org,España,2025-05-09,silver
+CUST-00685,Rosa María de Casas,uguerrero@example.net,España,2025-07-25,bronze
+CUST-00686,Rosenda Ródenas Ferrando,pinapepito@example.net,España,2025-10-20,silver
+CUST-00687,Edgardo Ariza Toro,imarino@example.net,España,2023-02-03,silver
+CUST-00688,Celestina Estévez Oliveras,lupita74@example.net,España,2024-05-10,silver
+CUST-00689,Candelaria de Cortina,qmarques@example.net,España,2024-08-19,bronze
+CUST-00690,Jenny Abascal Velasco,besteve@example.net,España,2024-12-23,bronze
+CUST-00691,Renata Haro Montes,poncegoyo@example.net,España,2025-05-03,bronze
+CUST-00692,Raquel Correa Luna,sebastian51@example.org,España,2023-06-25,silver
+CUST-00693,Mónica Batlle,castillagaspar@example.org,España,2025-01-08,bronze
+CUST-00694,Balduino Torralba,conradoanton@example.net,España,2025-12-13,silver
+CUST-00695,Máxima Trillo Zaragoza,augusto53@example.net,España,2025-11-05,silver
+CUST-00696,Adolfo Gallardo Tur,solenicolasa@example.net,España,2025-03-10,gold
+CUST-00697,Geraldo Ricart Peinado,larranagabenigna@example.org,España,2023-03-31,silver
+CUST-00698,Silvestre Mateu Bermejo,aureliacaballero@example.org,España,2025-02-03,bronze
+CUST-00699,Juan Pablo del Falcó,begonaibarra@example.net,España,2023-02-03,bronze
+CUST-00700,León Ribes Camacho,ileana76@example.org,España,2023-05-19,bronze
+CUST-00701,Ruy Escribano Querol,gema28@example.net,España,2023-08-01,silver
+CUST-00702,Úrsula Ortuño Miró,ramona56@example.net,España,2024-11-11,bronze
+CUST-00703,Sara Morales Hernandez,remigioizquierdo@example.com,España,2024-12-22,silver
+CUST-00704,Jacinta Puerta Abad,luisdebora@example.org,España,2023-12-25,gold
+CUST-00705,Bernarda Matas,masivan@example.org,España,2025-08-09,platinum
+CUST-00706,Ainoa Llorente Vidal,ciriacoarellano@example.com,España,2025-09-07,silver
+CUST-00707,Calixta Chacón Landa,tamara93@example.org,España,2023-10-04,bronze
+CUST-00708,Santiago Mas-Briones,ugelabert@example.org,España,2025-07-26,bronze
+CUST-00709,Rosa María Tolosa Duran,mbustos@example.net,España,2024-02-17,bronze
+CUST-00710,Alejo Pío Pizarro Bermudez,munizpablo@example.com,España,2024-02-13,gold
+CUST-00711,Íngrid Carreño González,pineirobaltasar@example.com,España,2024-10-08,gold
+CUST-00712,Alondra Montaña,nachovalles@example.net,España,2025-11-21,bronze
+CUST-00713,Carmelo de Pozo,fvargas@example.org,España,2026-01-17,bronze
+CUST-00714,Ema Prado Colomer,nicodemoblanch@example.com,España,2023-03-16,silver
+CUST-00715,Petrona Avilés-Pujol,che68@example.com,España,2024-01-27,bronze
+CUST-00716,Rico Cepeda Terrón,amarilisprats@example.net,España,2023-04-08,gold
+CUST-00717,Chelo Zamora-Hoz,calixtolarrea@example.com,España,2024-11-10,bronze
+CUST-00718,Noa Borrás Capdevila,xroda@example.com,España,2025-01-23,bronze
+CUST-00719,Felipe Ocaña,mayolfortunato@example.com,España,2025-03-30,silver
+CUST-00720,Samanta Rosaura Salamanca Coello,oarribas@example.org,España,2025-03-02,bronze
+CUST-00721,Calixta Boada Capdevila,herreroestela@example.org,España,2024-01-18,bronze
+CUST-00722,Adrián Francisco Javier Cantero Mayol,bsotelo@example.com,España,2025-10-15,bronze
+CUST-00723,Rafael Galán,carinazabala@example.com,España,2025-11-29,bronze
+CUST-00724,Julie de Alfaro,czurita@example.com,España,2023-06-19,silver
+CUST-00725,Amor Luz Font,balduino70@example.org,España,2023-06-11,bronze
+CUST-00726,Nadia Linares Palomino,aliagaluis@example.net,España,2024-01-05,silver
+CUST-00727,Cristina Pintor Verdugo,molesamada@example.net,España,2024-10-19,bronze
+CUST-00728,Anunciación de Flor,calmeida@example.org,España,2024-11-02,silver
+CUST-00729,Encarnación Múgica,vpozuelo@example.org,España,2024-09-19,bronze
+CUST-00730,Fulgencio Ortiz Padilla,jonatan84@example.org,España,2025-05-22,bronze
+CUST-00731,Valentín Pombo-Andreu,jafet25@example.com,España,2025-06-28,bronze
+CUST-00732,Armando Piña Viñas,silvestrehernandez@example.net,España,2023-03-28,silver
+CUST-00733,Ignacio Miguel Mur,ncatala@example.net,España,2024-12-23,silver
+CUST-00734,Luis Ángel Francisco Cervera,jennifer82@example.com,España,2025-06-09,bronze
+CUST-00735,Nacio Cruz Moll,carrascogeronimo@example.com,España,2023-04-28,bronze
+CUST-00736,Prudencio Andreu Montalbán,treina@example.com,España,2025-04-11,bronze
+CUST-00737,Carlos Expósito-Campillo,gilamo@example.net,España,2023-11-24,platinum
+CUST-00738,Débora María Dolores Gual Guerra,jacintaamo@example.com,España,2023-10-20,gold
+CUST-00739,Omar Tapia Cañete,lpereira@example.com,España,2025-06-16,bronze
+CUST-00740,Juana Cervantes Céspedes,jaimeantunez@example.com,España,2023-05-18,bronze
+CUST-00741,Óscar Lerma Rey,manuelitafranco@example.org,España,2025-01-20,bronze
+CUST-00742,Chus Saavedra Trillo,roxana73@example.com,España,2026-03-07,bronze
+CUST-00743,Renata Arnaiz Pintor,rufino99@example.net,España,2023-11-11,silver
+CUST-00744,Luciana de Viñas,sanmiguelyago@example.org,España,2025-01-29,bronze
+CUST-00745,Juan Antonio del Ariza,wvillalonga@example.net,España,2023-06-07,silver
+CUST-00746,Claudio Manuel Sabater,xmayo@example.com,España,2025-12-20,bronze
+CUST-00747,Carina Rocamora Mariscal,villanuevavera@example.org,España,2024-10-05,silver
+CUST-00748,Saturnina Sans Botella,escolanomelania@example.net,España,2024-05-26,platinum
+CUST-00749,Bernarda del Reyes,virgilio02@example.com,España,2023-02-23,silver
+CUST-00750,Viviana Franch-Sanz,ibanezmoises@example.net,España,2025-10-19,silver
+CUST-00751,Plinio Casals Bou,sanchofabiana@example.com,España,2026-02-24,bronze
+CUST-00752,Juan Francisco Plana Vidal,reyespintor@example.org,España,2024-06-17,silver
+CUST-00753,Yago Naranjo Conesa,rupertacoca@example.org,España,2024-03-15,platinum
+CUST-00754,Hugo Mena Mendoza,omalo@example.org,España,2024-08-07,silver
+CUST-00755,Vinicio Catalá Franco,isernalbano@example.com,España,2025-10-02,bronze
+CUST-00756,Tania Valenzuela Adán,ngarate@example.net,España,2023-10-05,gold
+CUST-00757,Jenny Redondo Sala,agudojose-ignacio@example.net,España,2025-07-14,bronze
+CUST-00758,Martín Galiano-Avilés,eusebioballesteros@example.net,España,2025-06-30,platinum
+CUST-00759,Alicia Codina Antúnez,natanael10@example.org,España,2024-10-16,silver
+CUST-00760,Carmina Cuéllar Luís,xavierpalomino@example.org,España,2023-05-13,silver
+CUST-00761,Rodrigo Martínez Moraleda,tomasa61@example.com,España,2024-08-17,gold
+CUST-00762,Ana Sofía del Sotelo,domingollobet@example.com,España,2023-11-19,silver
+CUST-00763,Haydée Zamorano,josefagallart@example.net,España,2023-12-23,silver
+CUST-00764,Baltasar Ángel Bonilla,bmadrigal@example.net,España,2025-11-07,bronze
+CUST-00765,Dora Zaragoza Otero,encarnacionvalderrama@example.net,España,2024-02-16,silver
+CUST-00766,Leire Escolano Guerrero,guillermo01@example.org,España,2024-04-29,silver
+CUST-00767,Maura Carranza Galan,criba@example.com,España,2023-02-23,bronze
+CUST-00768,Manuelita Garay Alberdi,jennylucena@example.com,España,2026-03-18,bronze
+CUST-00769,Fabio Marín Velázquez,maria-fernanda01@example.net,España,2026-02-03,bronze
+CUST-00770,Evita Prieto Andres,guillermomurillo@example.com,España,2023-06-26,bronze
+CUST-00771,África Sánchez Aranda,almacortes@example.net,España,2025-03-26,platinum
+CUST-00772,Violeta Naranjo Sevillano,hbarba@example.com,España,2025-09-07,silver
+CUST-00773,Paola Moles-Alfonso,crescenciamarmol@example.com,España,2025-04-18,gold
+CUST-00774,Carlito Lozano Anguita,remigio82@example.net,España,2023-06-01,bronze
+CUST-00775,Gema Cayetana Caro Mendez,leire04@example.com,España,2024-10-11,silver
+CUST-00776,Jose Ramón Gámez Peral,nmate@example.net,España,2025-07-10,bronze
+CUST-00777,Chucho Basilio Perelló Arcos,xiomarabru@example.com,España,2025-11-25,bronze
+CUST-00778,Aitana Tolosa,goyonieto@example.com,España,2026-02-03,silver
+CUST-00779,Esmeralda Morán,maria-josecabello@example.net,España,2024-01-08,silver
+CUST-00780,Cristian Arce Segovia,hyuste@example.org,España,2023-09-22,bronze
+CUST-00781,Alfredo Olegario Bonet Mínguez,garteaga@example.net,España,2023-04-24,gold
+CUST-00782,Aitor Luis Miguel Gallego,herberto34@example.com,España,2025-11-27,bronze
+CUST-00783,Esther del Carpio,eustaquio24@example.org,España,2023-12-04,bronze
+CUST-00784,María Vilaplana Calatayud,candelaordonez@example.net,España,2024-04-06,bronze
+CUST-00785,Elba Cid Luque,francisco-javierbelda@example.com,España,2025-11-28,gold
+CUST-00786,Violeta Evelia Salcedo Ayuso,ambrosiosotelo@example.net,España,2023-06-11,bronze
+CUST-00787,Balduino Pla Balaguer,roldanruben@example.org,España,2026-02-02,bronze
+CUST-00788,Violeta Martina Salmerón Pagès,nazaret38@example.org,España,2024-09-12,silver
+CUST-00789,Margarita Catalá Buendía,dcabanillas@example.com,España,2023-07-11,silver
+CUST-00790,José Guardiola Goicoechea,rosalindajorda@example.com,España,2023-12-12,silver
+CUST-00791,Casandra Murillo Morcillo,btorrent@example.org,España,2023-11-12,bronze
+CUST-00792,Aurelia Ortega Tejero,sdonaire@example.com,España,2024-11-22,gold
+CUST-00793,Maricela Belen Verdejo Calderon,ucampo@example.net,España,2026-02-28,bronze
+CUST-00794,Ruy Matas Serra,preyes@example.net,España,2023-02-28,bronze
+CUST-00795,Leocadio de Toledo,vbatalla@example.org,España,2024-06-26,silver
+CUST-00796,Irene Rozas-Nogués,fulgenciobermejo@example.net,España,2026-03-17,bronze
+CUST-00797,Socorro Torrecilla-Carbó,jmorell@example.org,España,2023-03-04,bronze
+CUST-00798,Carmen Mena Ramis,campsisidora@example.net,España,2026-01-22,bronze
+CUST-00799,Eugenia Urrutia Barriga,gelabertolga@example.org,España,2024-09-10,bronze
+CUST-00800,Yaiza Abad-Collado,victormanuel@example.com,España,2025-04-11,bronze
+CUST-00801,Maricruz Itziar Ferrán Fuster,marcelino94@example.com,España,2023-05-30,silver
+CUST-00802,Anunciación Aguiló Vicens,scastell@example.org,España,2023-11-20,bronze
+CUST-00803,Xiomara Baena Abascal,damian40@example.org,España,2025-09-18,bronze
+CUST-00804,Odalys Prado Monreal,yramis@example.com,España,2024-11-27,silver
+CUST-00805,Cloe de Taboada,godofredoplanas@example.com,España,2024-10-02,gold
+CUST-00806,Calista Maldonado Casas,aitorbellido@example.net,España,2024-10-15,silver
+CUST-00807,Calixto Torrecilla Rueda,cesarcervantes@example.net,España,2024-12-08,platinum
+CUST-00808,Teodora Sarmiento Roig,waltervergara@example.com,España,2023-09-25,silver
+CUST-00809,Salud del Planas,jaime26@example.net,España,2025-11-20,silver
+CUST-00810,Luis Valentín Guzmán,segismundo89@example.com,España,2024-10-15,bronze
+CUST-00811,Alejo Tomas Pedrosa,tiradojessica@example.org,España,2023-09-08,bronze
+CUST-00812,Pánfilo Zurita Losa,fvillanueva@example.net,España,2024-05-22,bronze
+CUST-00813,Anunciación Delfina Sureda Bermejo,emperatriz05@example.net,España,2023-04-14,bronze
+CUST-00814,Joel Santiago Vila,amunoz@example.com,España,2025-02-25,gold
+CUST-00815,Espiridión Celso Aranda Mateu,benjamin79@example.org,España,2025-05-06,bronze
+CUST-00816,Amaya Manzanares-Amores,amada12@example.net,España,2023-11-24,gold
+CUST-00817,Teodoro Lobo Iniesta,encarnacionlucas@example.com,España,2024-10-02,bronze
+CUST-00818,Adrián Cantón-Díaz,genovevasalom@example.com,España,2023-11-23,bronze
+CUST-00819,Eladio Guzman Toro,nereaalamo@example.org,España,2025-11-20,bronze
+CUST-00820,Anselma Codina Correa,xrey@example.com,España,2024-09-23,bronze
+CUST-00821,Natalio del Diego,crescenciaochoa@example.org,España,2023-07-04,gold
+CUST-00822,René Carmona-Badía,abrilpujadas@example.com,España,2025-11-01,bronze
+CUST-00823,Jordán Raúl Guillen Pino,qsanchez@example.org,España,2024-05-08,bronze
+CUST-00824,Tomasa Royo,maloaurea@example.com,España,2024-12-23,bronze
+CUST-00825,Nidia Moles Armengol,oterorafaela@example.com,España,2024-07-30,bronze
+CUST-00826,Ágata Modesta Llamas Naranjo,juanito14@example.net,España,2025-08-21,bronze
+CUST-00827,Genoveva Serra-Herranz,auroranebot@example.net,España,2023-01-17,gold
+CUST-00828,Faustino Alarcón Aguirre,alberosergio@example.org,España,2025-06-01,bronze
+CUST-00829,Aránzazu Salmerón,isidoro44@example.org,España,2024-06-25,silver
+CUST-00830,Albano Briones Barberá,elenacarro@example.net,España,2025-04-05,bronze
+CUST-00831,Armando Castillo Peña,teresitacantero@example.net,España,2025-03-31,bronze
+CUST-00832,Edmundo Mariño Solera,santanaagata@example.com,España,2026-02-24,bronze
+CUST-00833,Nydia Morales Jiménez,mercedesbenavent@example.com,España,2026-02-07,bronze
+CUST-00834,Graciano Pont Méndez,jordaodalis@example.com,España,2025-03-02,silver
+CUST-00835,Isidro Baños Téllez,emiliapozo@example.org,España,2026-01-31,bronze
+CUST-00836,Asunción Cobo Rosado,encarnacamino@example.com,España,2023-09-01,bronze
+CUST-00837,Aurelio Arana-Beltran,iglesiamaxi@example.com,España,2023-07-18,bronze
+CUST-00838,Vidal Valenciano Comas,arellanograciana@example.com,España,2024-11-25,silver
+CUST-00839,Carlos Murcia-Posada,villalbalaura@example.com,España,2025-01-18,silver
+CUST-00840,Isa Quintero Becerra,abrahamplanas@example.net,España,2024-02-12,silver
+CUST-00841,Azucena Palomar Mínguez,salvador01@example.com,España,2025-04-02,silver
+CUST-00842,Tamara del Bernat,pmanjon@example.org,España,2023-04-03,bronze
+CUST-00843,Leonel Ariza Plana,marcelinoporta@example.org,España,2024-11-13,gold
+CUST-00844,Lara Blazquez Río,enriquearaujo@example.org,España,2025-11-29,bronze
+CUST-00845,Plácido Gómez Torrijos,ybarroso@example.net,España,2025-11-21,bronze
+CUST-00846,Josep Juanito Sancho Alegre,nicolaubasilio@example.com,España,2024-10-14,bronze
+CUST-00847,Hermenegildo Carrasco Galán,vcompany@example.net,España,2024-09-04,silver
+CUST-00848,Óscar de Arco,amayaaliaga@example.com,España,2025-11-04,gold
+CUST-00849,Amalia Daniela Castrillo Alcaraz,eveliaayllon@example.com,España,2025-12-26,bronze
+CUST-00850,Javier Donaire Bartolomé,carbonellanastasia@example.net,España,2026-02-26,bronze
+CUST-00851,Constanza Ana Belén Franco Rojas,obdulia65@example.org,España,2023-02-04,bronze
+CUST-00852,Magdalena Cervantes-Montoya,maria-cristinaarroyo@example.net,España,2023-08-13,platinum
+CUST-00853,Florencio Barroso Carrillo,epifanio62@example.net,España,2024-09-22,silver
+CUST-00854,Manola Cózar Ródenas,angelaarmas@example.org,España,2023-02-24,silver
+CUST-00855,Ruy Peñalver Cruz,torrenscecilio@example.org,España,2024-06-27,platinum
+CUST-00856,Chuy Borrell Luz,stamarit@example.org,España,2024-04-11,silver
+CUST-00857,Calixto Lillo,prequena@example.org,España,2025-09-10,bronze
+CUST-00858,Nydia Alma Escolano Valero,mascaropablo@example.com,España,2025-02-17,bronze
+CUST-00859,León Gutiérrez Fernandez,bustosesperanza@example.com,España,2024-05-11,bronze
+CUST-00860,Lilia de Simó,leonelbaena@example.org,España,2023-08-14,bronze
+CUST-00861,Rómulo Company Sánchez,kegea@example.net,España,2025-06-22,bronze
+CUST-00862,Amando Pascual López,trinidadiglesias@example.com,España,2023-11-07,bronze
+CUST-00863,Rosenda Vilma Santana Aroca,badiaangela@example.net,España,2024-02-22,bronze
+CUST-00864,Cayetano Andres Toro,beldateresa@example.org,España,2025-08-23,gold
+CUST-00865,Martina Moreno Rius,marianamoreno@example.org,España,2023-05-08,silver
+CUST-00866,Fermín Goñi Cabañas,malenarevilla@example.org,España,2025-11-28,bronze
+CUST-00867,Violeta Giménez Beltrán,dtormo@example.com,España,2024-10-27,platinum
+CUST-00868,Cándido Sanz Enríquez,iperea@example.com,España,2025-09-06,silver
+CUST-00869,Maximiano Palmer,hermenegildo52@example.org,España,2024-10-04,platinum
+CUST-00870,América Lozano-Cerezo,solanaalvaro@example.com,España,2025-07-30,gold
+CUST-00871,Ricardo Nuñez Gimeno,elisabet29@example.org,España,2024-12-02,silver
+CUST-00872,Manola Gras-Bolaños,fvelez@example.org,España,2024-06-25,silver
+CUST-00873,Juana Sevillano-Lorenzo,romanmagdalena@example.org,España,2024-01-29,platinum
+CUST-00874,Fernando del Girón,xiomaraadadia@example.com,España,2024-07-25,silver
+CUST-00875,Alex Sosa Varela,roigbernarda@example.com,España,2024-04-05,gold
+CUST-00876,Rufina Cabañas Santamaria,fhernandez@example.net,España,2024-09-01,silver
+CUST-00877,Osvaldo Ramos Gibert,pliniomarques@example.org,España,2024-02-29,silver
+CUST-00878,Adán Tena Mayol,julianasegovia@example.net,España,2025-09-28,bronze
+CUST-00879,Aitana Sanz-Silva,sandraramirez@example.org,España,2024-12-15,silver
+CUST-00880,Maura Simó Abella,plazateodora@example.net,España,2024-07-14,bronze
+CUST-00881,Luisa Antúnez Martin,slerma@example.net,España,2026-03-20,silver
+CUST-00882,Maricela de Berrocal,magdalena08@example.net,España,2025-02-16,gold
+CUST-00883,Victoria Aznar Cantero,dpavon@example.net,España,2025-03-19,gold
+CUST-00884,Gervasio Pazos Díez,fuentesemiliano@example.com,España,2023-10-27,bronze
+CUST-00885,Julián de Tejera,marisagomis@example.com,España,2024-08-12,platinum
+CUST-00886,Viviana Lastra Vara,dlluch@example.org,España,2023-06-11,bronze
+CUST-00887,Fabiola Santamaria Torre,sorianoleire@example.net,España,2025-06-24,silver
+CUST-00888,Ximena del Sans,nereida13@example.com,España,2025-09-08,bronze
+CUST-00889,Apolinar Portillo Escamilla,carmelo12@example.com,España,2026-01-08,bronze
+CUST-00890,Pablo Colomer Valderrama,sandrafuente@example.net,España,2026-02-25,silver
+CUST-00891,Eugenio Riera Catalán,aoliver@example.com,España,2023-10-09,bronze
+CUST-00892,Esteban Fajardo Barros,guerraperlita@example.net,España,2024-05-05,bronze
+CUST-00893,Guiomar Novoa Morera,dsalgado@example.com,España,2025-12-23,bronze
+CUST-00894,Benigna Medina-Duarte,javi75@example.com,España,2024-04-21,bronze
+CUST-00895,Candelario Osuna Luís,ndelgado@example.org,España,2025-04-26,bronze
+CUST-00896,Eloísa de Echevarría,felixgarate@example.org,España,2025-08-25,bronze
+CUST-00897,Federico Castañeda Saez,rafael23@example.net,España,2023-10-09,bronze
+CUST-00898,Nazaret Molins Núñez,ramonsanabria@example.net,España,2026-02-01,platinum
+CUST-00899,Juanito Mata Carrión,quirogaangelina@example.org,España,2023-11-20,bronze
+CUST-00900,Áurea Montero Costa,veranatanael@example.net,España,2025-09-01,bronze
+CUST-00901,Jordi Victorino Manjón Colom,snevado@example.org,España,2024-02-13,silver
+CUST-00902,Ximena Arjona Chaparro,menaamador@example.com,España,2024-08-11,bronze
+CUST-00903,Sol Constanza Salmerón Palau,morerabartolome@example.net,España,2023-05-02,gold
+CUST-00904,Lupe Zurita,merchelobo@example.org,España,2023-07-03,silver
+CUST-00905,Ariel Salinas Bonet,fferreras@example.com,España,2024-04-20,silver
+CUST-00906,María Del Carmen Lina Barba Paniagua,tcoloma@example.com,España,2023-03-18,gold
+CUST-00907,Gabriela Peralta Albero,onofre54@example.com,España,2023-12-25,bronze
+CUST-00908,Antonia de Saldaña,ssalas@example.org,España,2023-12-27,gold
+CUST-00909,Pastora Ribas Chaparro,cobohipolito@example.com,España,2023-03-16,platinum
+CUST-00910,Teófila Zapata Naranjo,penachus@example.org,España,2025-03-24,silver
+CUST-00911,Micaela Llano Ribas,cayetanasevilla@example.net,España,2024-01-17,gold
+CUST-00912,Priscila Cerro-Flores,pepitapizarro@example.com,España,2024-08-15,gold
+CUST-00913,Leandra de Matas,ana87@example.org,España,2023-01-19,bronze
+CUST-00914,Ruy Acedo Correa,marcelo71@example.net,España,2023-08-08,gold
+CUST-00915,Horacio Chuy Téllez Hierro,carrerasmaria-del-carmen@example.com,España,2024-11-17,bronze
+CUST-00916,Anabel Pardo Terrón,ojorda@example.net,España,2026-01-17,silver
+CUST-00917,Nélida Carreras Perea,joverfermin@example.net,España,2023-10-02,gold
+CUST-00918,Camilo Montenegro Serra,pepecardenas@example.org,España,2025-08-16,bronze
+CUST-00919,Geraldo Rivas-Palacio,manjonlupe@example.net,España,2023-08-19,bronze
+CUST-00920,José Ángel Ferrer Español,diegocandelaria@example.com,España,2025-07-28,silver
+CUST-00921,Sarita Mascaró Linares,clemente89@example.com,España,2024-01-17,bronze
+CUST-00922,Adolfo Cerro Villegas,ramon76@example.com,España,2024-11-21,silver
+CUST-00923,Aurelio Gibert Cortes,pazfabra@example.net,España,2026-03-08,silver
+CUST-00924,Nuria Selena Zaragoza Carbonell,eserna@example.org,España,2024-01-31,bronze
+CUST-00925,Íñigo Alemany Tena,mateo52@example.com,España,2025-04-10,gold
+CUST-00926,Lourdes Rafaela Nogués Dueñas,ambrosio13@example.org,España,2025-11-21,bronze
+CUST-00927,Omar González Meléndez,hugocastillo@example.org,España,2025-03-31,silver
+CUST-00928,Nuria Cantón Bermejo,tomemarita@example.com,España,2024-01-14,platinum
+CUST-00929,Clímaco Campos Aparicio,somozadiego@example.com,España,2025-09-04,bronze
+CUST-00930,Anacleto Mata Alarcón,casalszoraida@example.net,España,2024-05-23,bronze
+CUST-00931,Lázaro Folch,herminiaortega@example.org,España,2025-02-24,bronze
+CUST-00932,Camilo Lobato Oliveras,felipe89@example.org,España,2024-06-30,platinum
+CUST-00933,Mariana Bayo,alcalabenigna@example.org,España,2024-09-10,silver
+CUST-00934,Epifanio Duarte,cabezaambar@example.org,España,2026-03-19,bronze
+CUST-00935,Susanita Taboada,jose92@example.com,España,2025-01-06,silver
+CUST-00936,Cipriano Pacheco Pino,ggargallo@example.org,España,2023-05-08,silver
+CUST-00937,Aurelia Miralles Casals,hcanet@example.org,España,2025-08-11,bronze
+CUST-00938,Rafaela Paniagua Maldonado,blancanacio@example.com,España,2025-04-10,silver
+CUST-00939,Guadalupe Luque Saura,jacinta73@example.net,España,2024-09-28,silver
+CUST-00940,Ema Roman Fabregat,tamaritiris@example.com,España,2024-08-27,bronze
+CUST-00941,Adolfo Tur Calzada,hrios@example.net,España,2024-03-28,bronze
+CUST-00942,Benito Clemente Prat,vcal@example.org,España,2023-10-01,bronze
+CUST-00943,Germán Flor Nevado,dulcequintero@example.org,España,2025-07-20,silver
+CUST-00944,Simón del Valera,maria-del-carmen99@example.com,España,2025-02-04,bronze
+CUST-00945,Felipa Tamarit Quiroga,rvidal@example.org,España,2026-01-29,gold
+CUST-00946,Asunción Carvajal Iglesia,ovalencia@example.net,España,2026-01-05,gold
+CUST-00947,Albino Cabezas Baena,valentinirene@example.org,España,2024-03-23,silver
+CUST-00948,Graciano Morillo Corominas,ester91@example.org,España,2023-06-17,silver
+CUST-00949,Raquel Ugarte,sfranch@example.net,España,2025-12-17,silver
+CUST-00950,Leandra Vargas Jurado,nydia88@example.org,España,2023-06-09,gold
+CUST-00951,Ildefonso Carrera Pla,ymiranda@example.com,España,2023-08-18,bronze
+CUST-00952,Alicia Aparicio Elorza,soledad27@example.com,España,2026-01-26,gold
+CUST-00953,Fabricio Porcel Torrent,trujillogeorgina@example.net,España,2024-02-19,silver
+CUST-00954,Marianela del Tamarit,antoniabarba@example.com,España,2023-11-03,bronze
+CUST-00955,Jose Miguel Pina-Osorio,miguel-angel00@example.net,España,2025-12-01,bronze
+CUST-00956,Bernardo Pazos Oller,nogueiraricardo@example.org,España,2024-02-25,silver
+CUST-00957,Fabiola Palau Requena,basilio33@example.org,España,2025-09-28,bronze
+CUST-00958,Manu Aristides Bastida Mayol,nebotfortunato@example.org,España,2025-11-11,bronze
+CUST-00959,Eufemia de Serna,avilla@example.com,España,2023-04-24,bronze
+CUST-00960,Pablo Soria Alonso,rene96@example.com,España,2025-11-17,bronze
+CUST-00961,Ariel Torres-Cabo,nicodemovaldes@example.net,España,2026-02-28,bronze
+CUST-00962,Carina Marí Parra,ffranch@example.net,España,2025-08-04,silver
+CUST-00963,Sosimo Gargallo Madrigal,asdrubal49@example.com,España,2024-09-23,silver
+CUST-00964,Mateo de Bustamante,leandro19@example.net,España,2025-03-21,bronze
+CUST-00965,Inmaculada Gallego Olivera,matasanna@example.com,España,2023-01-07,silver
+CUST-00966,Narcisa Millán Folch,qquesada@example.net,España,2023-05-30,bronze
+CUST-00967,Jenny Escribano,villalongarosalia@example.org,España,2024-12-06,silver
+CUST-00968,Leticia Garcés-Solsona,felicia89@example.com,España,2026-01-13,platinum
+CUST-00969,Pascuala Barreda-Yuste,panfilosevillano@example.org,España,2023-05-22,platinum
+CUST-00970,Carlos del Rozas,emontalban@example.net,España,2025-08-24,bronze
+CUST-00971,Teo Revilla,palmira42@example.com,España,2025-04-17,bronze
+CUST-00972,Custodia Graciela Gómez Carballo,gregorioamoros@example.org,España,2023-10-05,silver
+CUST-00973,Jesús Jose Carlos Rubio Roca,franchfeliciano@example.com,España,2025-05-10,bronze
+CUST-00974,Alberto Jordán Lobato,fidelaarnal@example.net,España,2025-02-22,bronze
+CUST-00975,Ricarda Aller Baquero,mireligia@example.com,España,2025-02-12,bronze
+CUST-00976,Virgilio Ramírez Parra,puenteprimitiva@example.net,España,2026-01-09,bronze
+CUST-00977,Desiderio Caparrós Vall,velezgraciana@example.net,España,2024-12-13,bronze
+CUST-00978,Dionisia Valderrama,garateeli@example.org,España,2026-01-05,bronze
+CUST-00979,Eulalia Porta Guzman,jgibert@example.org,España,2023-09-18,silver
+CUST-00980,Custodio Llobet Sabater,lizquierdo@example.org,España,2024-04-01,gold
+CUST-00981,Luna Perera Carbajo,caridad67@example.net,España,2023-02-16,platinum
+CUST-00982,Emilio de Parejo,tpedro@example.org,España,2025-08-06,silver
+CUST-00983,Alexandra Sol Ballester Heras,carmina64@example.net,España,2026-01-20,bronze
+CUST-00984,Yaiza Carro Guzmán,apont@example.com,España,2025-02-15,gold
+CUST-00985,Eutropio Bosch-Gutiérrez,humberto27@example.net,España,2024-05-21,bronze
+CUST-00986,Vanesa Ramos Aragón,roxana17@example.com,España,2023-11-14,bronze
+CUST-00987,Ángeles Méndez Rocamora,cuetojovita@example.com,España,2023-08-20,bronze
+CUST-00988,Ana Sofía Ortiz,dmorillo@example.net,España,2025-05-08,silver
+CUST-00989,Rico Azorin Espejo,acerdan@example.com,España,2023-02-02,bronze
+CUST-00990,Mauricio Mayoral,coral11@example.org,España,2023-05-18,bronze
+CUST-00991,Juan de Reguera,vito72@example.com,España,2023-03-10,bronze
+CUST-00992,Olegario Morán Luján,cesarribas@example.com,España,2023-04-10,bronze
+CUST-00993,Haroldo Pi Gomez,alvaradoagueda@example.net,España,2023-04-01,bronze
+CUST-00994,Maura Crescencia Borrell Sevillano,juan-franciscodomingo@example.org,España,2024-04-24,silver
+CUST-00995,María Pilar Romeu Juan,chuypedro@example.org,España,2023-04-26,bronze
+CUST-00996,Azahara Alcalá-Zaragoza,rsantiago@example.com,España,2024-08-15,bronze
+CUST-00997,Dani Frutos Farré,lucio76@example.org,España,2024-10-15,silver
+CUST-00998,Tatiana Gabaldón Garriga,lucia36@example.org,España,2024-10-18,bronze
+CUST-00999,Rosa María Coello Andrade,juan-francisco39@example.com,España,2023-10-21,platinum
+CUST-01000,Gil del Boada,somozaeliseo@example.com,España,2025-12-03,bronze

@@ -1,0 +1,51 @@
+product_id,product_name,category,subcategory,unit_price,supplier_country
+PROD-001,Turbo Smartphones,Electrónica,Smartphones,115.77,Portugal
+PROD-002,Pro Portátiles,Electrónica,Portátiles,227.09,Francia
+PROD-003,Turbo Auriculares,Electrónica,Auriculares,741.96,Reino Unido
+PROD-004,Eco Monitores,Electrónica,Monitores,592.53,España
+PROD-005,Premium Tablets,Electrónica,Tablets,98.23,Italia
+PROD-006,Compact Camisetas,Ropa,Camisetas,604.0,Reino Unido
+PROD-007,Pro Pantalones,Ropa,Pantalones,717.43,Reino Unido
+PROD-008,Lite Vestidos,Ropa,Vestidos,224.34,Países Bajos
+PROD-009,Ultra Chaquetas,Ropa,Chaquetas,810.38,España
+PROD-010,Classic Zapatos,Ropa,Zapatos,806.78,Japón
+PROD-011,Max Muebles,Hogar,Muebles,281.48,Italia
+PROD-012,Classic Decoración,Hogar,Decoración,339.91,Francia
+PROD-013,Lite Cocina,Hogar,Cocina,101.23,China
+PROD-014,Digital Iluminación,Hogar,Iluminación,268.2,España
+PROD-015,Elite Jardín,Hogar,Jardín,462.12,Francia
+PROD-016,Speed Fútbol,Deportes,Fútbol,381.64,Reino Unido
+PROD-017,Ultra Running,Deportes,Running,830.25,Países Bajos
+PROD-018,Speed Ciclismo,Deportes,Ciclismo,862.39,Países Bajos
+PROD-019,Pro Natación,Deportes,Natación,706.04,España
+PROD-020,Turbo Gimnasio,Deportes,Gimnasio,231.76,Portugal
+PROD-021,Eco Bebidas,Alimentación,Bebidas,856.03,Francia
+PROD-022,Lite Snacks,Alimentación,Snacks,281.58,China
+PROD-023,Smart Congelados,Alimentación,Congelados,373.33,Italia
+PROD-024,Turbo Frescos,Alimentación,Frescos,270.64,Francia
+PROD-025,Digital Ecológicos,Alimentación,Ecológicos,636.8,Reino Unido
+PROD-026,Elite Smartphones,Electrónica,Smartphones,248.58,Estados Unidos
+PROD-027,Lite Portátiles,Electrónica,Portátiles,273.6,Reino Unido
+PROD-028,Pro Auriculares,Electrónica,Auriculares,686.18,España
+PROD-029,Pro Monitores,Electrónica,Monitores,822.69,China
+PROD-030,Lite Tablets,Electrónica,Tablets,271.4,Italia
+PROD-031,Speed Camisetas,Ropa,Camisetas,943.19,China
+PROD-032,Pro Pantalones v2,Ropa,Pantalones,657.15,Japón
+PROD-033,Speed Vestidos,Ropa,Vestidos,914.97,Estados Unidos
+PROD-034,Smart Chaquetas,Ropa,Chaquetas,268.55,Italia
+PROD-035,Elite Zapatos,Ropa,Zapatos,563.56,Portugal
+PROD-036,Elite Muebles,Hogar,Muebles,586.66,Países Bajos
+PROD-037,Lite Decoración,Hogar,Decoración,365.18,Alemania
+PROD-038,Compact Cocina,Hogar,Cocina,496.04,España
+PROD-039,Fresh Iluminación,Hogar,Iluminación,114.1,Alemania
+PROD-040,Classic Jardín,Hogar,Jardín,682.07,Países Bajos
+PROD-041,Eco Fútbol,Deportes,Fútbol,387.84,Países Bajos
+PROD-042,Plus Running,Deportes,Running,531.46,Reino Unido
+PROD-043,Fresh Ciclismo,Deportes,Ciclismo,942.71,Francia
+PROD-044,Turbo Natación,Deportes,Natación,885.36,Portugal
+PROD-045,Classic Gimnasio,Deportes,Gimnasio,642.75,Francia
+PROD-046,Ultra Bebidas,Alimentación,Bebidas,437.59,Estados Unidos
+PROD-047,Premium Snacks,Alimentación,Snacks,954.04,Portugal
+PROD-048,Compact Congelados,Alimentación,Congelados,763.14,Reino Unido
+PROD-049,Speed Frescos,Alimentación,Frescos,110.88,Portugal
+PROD-050,Fresh Ecológicos,Alimentación,Ecológicos,640.75,Países Bajos
