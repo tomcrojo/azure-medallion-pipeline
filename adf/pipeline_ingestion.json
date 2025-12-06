@@ -1,0 +1,148 @@
+{
+  "name": "MedallionPipeline",
+  "properties": {
+    "description": "End-to-end Medallion pipeline: ingest CSV → Bronze → Silver → Gold via Databricks notebooks.",
+    "activities": [
+      {
+        "name": "CopyToBronze",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 2,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "storeSettings": {
+              "type": "HttpReadSettings",
+              "requestMethod": "GET",
+              "requestUrl": "https://raw.githubusercontent.com/azure-medallion-pipeline/main/data/sample_orders.csv"
+            },
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings",
+              "headerDelimiter": ",",
+              "firstRowAsHeader": true
+            }
+          },
+          "sink": {
+            "type": "DelimitedTextSink",
+            "storeSettings": {
+              "type": "AzureBlobFSSettings",
+              "recursive": false
+            },
+            "formatSettings": {
+              "type": "DelimitedTextWriteSettings",
+              "headerDelimiter": ","
+            }
+          },
+          "enableStaging": false,
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              { "source": { "path": "order_id" }, "sink": { "path": "order_id", "type": "String" } },
+              { "source": { "path": "customer_id" }, "sink": { "path": "customer_id", "type": "String" } },
+              { "source": { "path": "product_id" }, "sink": { "path": "product_id", "type": "String" } },
+              { "source": { "path": "quantity" }, "sink": { "path": "quantity", "type": "Int32" } },
+              { "source": { "path": "unit_price" }, "sink": { "path": "unit_price", "type": "Double" } },
+              { "source": { "path": "order_date" }, "sink": { "path": "order_date", "type": "String" } },
+              { "source": { "path": "region" }, "sink": { "path": "region", "type": "String" } }
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "referenceName": "ds_http_source",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "ds_bronze_orders",
+            "type": "DatasetReference"
+          }
+        ]
+      },
+      {
+        "name": "BronzeToSilver",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          {
+            "activity": "CopyToBronze",
+            "conditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.1:00:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 60
+        },
+        "typeProperties": {
+          "notebookPath": "/Repos/medallion-pipeline/notebooks/02_silver_transformation",
+          "baseParameters": {},
+          "timeout": "0.1:00:00"
+        },
+        "linkedServiceName": {
+          "referenceName": "ls_databricks",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "SilverToGold",
+        "type": "DatabricksNotebook",
+        "dependsOn": [
+          {
+            "activity": "BronzeToSilver",
+            "conditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.1:00:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 60
+        },
+        "typeProperties": {
+          "notebookPath": "/Repos/medallion-pipeline/notebooks/03_gold_aggregation",
+          "baseParameters": {},
+          "timeout": "0.1:00:00"
+        },
+        "linkedServiceName": {
+          "referenceName": "ls_databricks",
+          "type": "LinkedServiceReference"
+        }
+      },
+      {
+        "name": "OnFailureNotify",
+        "type": "WebActivity",
+        "dependsOn": [
+          {
+            "activity": "CopyToBronze",
+            "conditions": ["Failed"]
+          },
+          {
+            "activity": "BronzeToSilver",
+            "conditions": ["Failed"]
+          },
+          {
+            "activity": "SilverToGold",
+            "conditions": ["Failed"]
+          }
+        ],
+        "typeProperties": {
+          "url": "https://hooks.slack.com/services/PLACEHOLDER",
+          "method": "POST",
+          "body": {
+            "text": "Medallion pipeline FAILED. Check Azure Data Factory run details."
+          }
+        }
+      }
+    ],
+    "parameters": {},
+    "annotations": [],
+    "folder": {
+      "name": "medallion"
+    }
+  },
+  "type": "Microsoft.DataFactory/factories/pipelines"
+}
