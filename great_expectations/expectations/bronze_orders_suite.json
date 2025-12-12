@@ -1,0 +1,144 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "bronze_orders_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": [
+          "order_id",
+          "customer_id",
+          "product_id",
+          "quantity",
+          "unit_price",
+          "order_date",
+          "region",
+          "ingestion_timestamp",
+          "source_system",
+          "file_name"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "order_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "order_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "order_id",
+        "regex": "^ORD-\\d+$"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "product_id"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "order_date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "ingestion_timestamp"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "quantity",
+        "min_value": 1,
+        "max_value": 50
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "unit_price",
+        "min_value": 0.01,
+        "max_value": 10000
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "region",
+        "value_set": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Sevilla",
+          "Zaragoza",
+          "Málaga",
+          "Murcia",
+          "Palma",
+          "Las Palmas",
+          "Bilbao",
+          "Alicante",
+          "Córdoba",
+          "Valladolid",
+          "Vigo",
+          "Gijón",
+          "Granada",
+          "A Coruña",
+          "Vitoria",
+          "Elche",
+          "Oviedo",
+          "Santa Cruz de Tenerife",
+          "Pamplona",
+          "Santander",
+          "Castellón",
+          "Burgos",
+          "Albacete",
+          "Salamanca",
+          "Logroño",
+          "Badajoz",
+          "Huelva",
+          "Tarragona",
+          "León",
+          "Lleida",
+          "Cádiz",
+          "Jaén",
+          "Ourense",
+          "Girona",
+          "Lugo",
+          "Cáceres",
+          "Toledo",
+          "Melilla",
+          "Ceuta"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null
+}
