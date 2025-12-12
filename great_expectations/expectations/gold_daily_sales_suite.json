@@ -1,0 +1,144 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "gold_daily_sales_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_greater_than",
+      "kwargs": {
+        "value": 0
+      },
+      "meta": {
+        "notes": "Gold layer must contain at least one aggregated row"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "order_date"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "region"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "total_orders"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "total_revenue"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "avg_order_value"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "total_revenue",
+        "min_value": 0,
+        "max_value": null
+      },
+      "meta": {
+        "notes": "Revenue cannot be negative"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "total_orders",
+        "min_value": 1,
+        "max_value": null
+      },
+      "meta": {
+        "notes": "Each day-region combo must have at least 1 order"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "avg_order_value",
+        "min_value": 0.01,
+        "max_value": null
+      },
+      "meta": {
+        "notes": "Average order value must be positive"
+      }
+    },
+    {
+      "expectation_type": "expect_multicolumn_values_to_be_unique",
+      "kwargs": {
+        "column_list": ["order_date", "region"]
+      },
+      "meta": {
+        "notes": "Each (order_date, region) combination must be unique — no duplicate aggregations"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "region",
+        "value_set": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Sevilla",
+          "Zaragoza",
+          "Málaga",
+          "Murcia",
+          "Palma",
+          "Las Palmas",
+          "Bilbao",
+          "Alicante",
+          "Córdoba",
+          "Valladolid",
+          "Vigo",
+          "Gijón",
+          "Granada",
+          "A Coruña",
+          "Vitoria",
+          "Elche",
+          "Oviedo",
+          "Santa Cruz de Tenerife",
+          "Pamplona",
+          "Santander",
+          "Castellón",
+          "Burgos",
+          "Albacete",
+          "Salamanca",
+          "Logroño",
+          "Badajoz",
+          "Huelva",
+          "Tarragona",
+          "León",
+          "Lleida",
+          "Cádiz",
+          "Jaén",
+          "Ourense",
+          "Girona",
+          "Lugo",
+          "Cáceres",
+          "Toledo",
+          "Melilla",
+          "Ceuta"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null
+}

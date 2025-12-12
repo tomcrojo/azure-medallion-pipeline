@@ -1,0 +1,32 @@
+name: silver_checkpoint
+config_version: 1.0
+template_name:
+module_name: great_expectations.checkpoint
+class_name: Checkpoint
+
+validations:
+  - batch_request:
+      datasource_name: local_csv
+      data_connector_name: default_runtime_data_connector_name
+      data_asset_name: silver_orders
+      data_connector_query:
+        index: -1
+    expectation_suite_name: silver_orders_suite
+
+run_name_template: "silver_%Y%m%d_%H%M%S"
+
+action_list:
+  - name: store_validation_result
+    action:
+      class_name: StoreValidationResultAction
+  - name: store_evaluation_params
+    action:
+      class_name: StoreEvaluationParametersAction
+  - name: update_data_docs
+    action:
+      class_name: UpdateDataDocsAction
+
+evaluation_parameters: {}
+runtime_configuration: {}
+profilers: []
+ge_cloud_id:
