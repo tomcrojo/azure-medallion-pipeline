@@ -1,0 +1,119 @@
+services:
+  # MinIO — S3-compatible storage (replaces ADLS Gen2 for local dev)
+  minio:
+    image: minio/minio:latest
+    ports:
+      - "9010:9000"    # S3 API
+      - "9011:9001"    # Console
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # MinIO init — create buckets (bronze, silver, gold, logs)
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set local http://minio:9000 minioadmin minioadmin &&
+      mc mb --ignore-existing local/bronze &&
+      mc mb --ignore-existing local/silver &&
+      mc mb --ignore-existing local/gold &&
+      mc mb --ignore-existing local/logs &&
+      echo 'Buckets created: bronze, silver, gold, logs'
+      "
+
+  # Spark master
+  spark-master:
+    image: bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+    ports:
+      - "8082:8080"    # Spark Master UI
+      - "7078:7077"    # Spark Master port
+    volumes:
+      - spark_apps:/opt/bitnami/spark/apps
+      - ./notebooks:/opt/bitnami/spark/notebooks
+      - ./data:/opt/bitnami/spark/data
+
+  # Spark worker
+  spark-worker:
+    image: bitnami/spark:3.5
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=2G
+      - SPARK_WORKER_CORES=2
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+    volumes:
+      - spark_apps:/opt/bitnami/spark/apps
+      - ./notebooks:/opt/bitnami/spark/notebooks
+      - ./data:/opt/bitnami/spark/data
+
+  # Jupyter with PySpark — for interactive notebook development
+  jupyter:
+    image: jupyter/pyspark-notebook:spark-3.5
+    depends_on:
+      - spark-master
+      - minio
+    ports:
+      - "8889:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - AWS_ACCESS_KEY_ID=minioadmin
+      - AWS_SECRET_ACCESS_KEY=minioadmin
+      - AWS_ENDPOINT_URL=http://minio:9000
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks
+      - ./data:/home/jovyan/work/data
+      - ./great_expectations:/home/jovyan/work/great_expectations
+      - ./scripts:/home/jovyan/work/scripts
+    command: start-notebook.py --NotebookApp.token=''
+
+  # Great Expectations Data Docs viewer
+  ge-docs:
+    image: nginx:alpine
+    ports:
+      - "8880:80"
+    volumes:
+      - ./great_expectations/uncommitted/data_docs/local_site:/usr/share/nginx/html:ro
+    depends_on: []
+    profiles:
+      - docs
+
+  # Data Quality Observability Dashboard
+  observability:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8502:8501"
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: >
+      streamlit run src/data_observability/dashboard.py
+      --server.port=8501
+      --server.address=0.0.0.0
+    profiles:
+      - observability
+
+volumes:
+  minio_data:
+  spark_apps:
