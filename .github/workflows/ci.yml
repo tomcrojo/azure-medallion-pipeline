@@ -92,7 +92,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install dependencies
-        run: pip install great-expectations pandas
+        run: pip install "great-expectations>=0.18,<1.0" pandas
 
       - name: Run quality checks
         run: python scripts/run_quality_checks.py
@@ -120,18 +120,26 @@ jobs:
 
       - name: Terraform Init
         working-directory: terraform
-        run: terraform init -input=false
-        env:
-          ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
-          ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+        run: terraform init -backend=false -input=false
 
       - name: Terraform Validate
         working-directory: terraform
         run: terraform validate
 
+      - name: Check Azure credentials availability
+        id: azure-creds
+        run: |
+          if [ -n "${{ secrets.AZURE_SUBSCRIPTION_ID }}" ] && \
+             [ -n "${{ secrets.AZURE_CLIENT_ID }}" ] && \
+             [ -n "${{ secrets.AZURE_CLIENT_SECRET }}" ] && \
+             [ -n "${{ secrets.AZURE_TENANT_ID }}" ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Terraform Plan
+        if: steps.azure-creds.outputs.available == 'true'
         working-directory: terraform
         run: terraform plan -input=false -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}" -out=tfplan
         env:
@@ -140,6 +148,10 @@ jobs:
           ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
           ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         continue-on-error: true
+
+      - name: Skip Terraform plan without Azure credentials
+        if: steps.azure-creds.outputs.available != 'true'
+        run: echo "Skipping terraform plan because Azure credentials are not configured for this public repo."
 
       - name: Upload plan
         if: always()
