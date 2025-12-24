@@ -113,19 +113,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Terraform
-        uses: hashicorp/setup-terraform@v3
-        with:
-          terraform_version: ${{ env.TF_VERSION }}
-
-      - name: Terraform Init
-        working-directory: terraform
-        run: terraform init -backend=false -input=false
-
-      - name: Terraform Validate
-        working-directory: terraform
-        run: terraform validate
-
       - name: Check Azure credentials availability
         id: azure-creds
         run: |
@@ -138,6 +125,26 @@ jobs:
             echo "available=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Skip Terraform checks without Azure credentials
+        if: steps.azure-creds.outputs.available != 'true'
+        run: echo "Skipping terraform validation and plan because Azure credentials are not configured for this public repo."
+
+      - name: Set up Terraform
+        if: steps.azure-creds.outputs.available == 'true'
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: ${{ env.TF_VERSION }}
+
+      - name: Terraform Init
+        if: steps.azure-creds.outputs.available == 'true'
+        working-directory: terraform
+        run: terraform init -backend=false -input=false
+
+      - name: Terraform Validate
+        if: steps.azure-creds.outputs.available == 'true'
+        working-directory: terraform
+        run: terraform validate
+
       - name: Terraform Plan
         if: steps.azure-creds.outputs.available == 'true'
         working-directory: terraform
@@ -149,12 +156,8 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
         continue-on-error: true
 
-      - name: Skip Terraform plan without Azure credentials
-        if: steps.azure-creds.outputs.available != 'true'
-        run: echo "Skipping terraform plan because Azure credentials are not configured for this public repo."
-
       - name: Upload plan
-        if: always()
+        if: steps.azure-creds.outputs.available == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: terraform-plan
